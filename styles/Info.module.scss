@@ -1,0 +1,24 @@
+.connecty-boi {
+    max-width: 80%;
+    width: 800px;
+    z-index: -1;
+    position: relative;
+    left: 80px;
+    margin-top: -390px;
+}
+
+// TODO: implement these subclasses to match the figma!
+.bubble {
+    padding: 10px;
+    height: 400px;
+    width: 320px;
+    &--left {
+
+    }
+    &--center {
+
+    }
+    &--right {
+
+    }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$red: #ED4238;
+$purple: #722d60;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+%flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%container {
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+.flex {
+  @extend %flex;
+}
+
+.flex-container {
+  @extend %flex;
+  @extend %container;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: larger;
+  margin: 10px 0 10px 0;
+}
+
+.text-container {
+  width: auto;
+  max-width: 600px;
+  padding: 10px;
+}
