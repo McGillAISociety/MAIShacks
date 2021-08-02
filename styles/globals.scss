@@ -54,3 +54,9 @@ p {
     text-align: left;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .mobile-hide {
+    display: none;
+  }
+}
