@@ -9,8 +9,8 @@ export default function Info() {
     return <>
         <div className="flex-container">
             <div className={'text-container'}
-                style={{paddingRight: showConnecty ? '150px': 0}}>
-                    <h1>CANADA&apos;S LARGEST AI HACKATHON</h1>
+                style={{paddingRight: showConnecty ? '200px': 0}}>
+                    <h1>Canada&apos;s Largest AI Hackathon.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis venenatis turpis maximus cursus. Etiam dapibus risus ut neque mollis accumsan. Suspendisse imperdiet vitae nulla ac consectetur.
                     </p>
                     <p>
@@ -28,11 +28,11 @@ export default function Info() {
             </div>
             <div className={`${styles['bubble']} ${styles['bubble--center']}`}>
                 <h2>Workshops and Activities</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis venenatis turpis maximus cursus. Etiam dapibus risus ut neque mollis accumsan. Suspendisse imperdiet vitae nulla ac consectetur.</p>
+                <p>Morbi non enim molestie felis viverra efficitur vel ac libero. Suspendisse potenti. Phasellus eget faucibus dui. Nam luctus eleifend rhoncus.</p>
             </div>
             <div className={`${styles['bubble']} ${styles['bubble--right']}`}>
                 <h2>Projects</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis venenatis turpis maximus cursus. Etiam dapibus risus ut neque mollis accumsan. Suspendisse imperdiet vitae nulla ac consectetur.</p>
+                <p>Ut eleifend quam orci, ac varius ligula posuere ac. Donec id ornare enim. Aliquam vel metus arcu. Vestibulum ante ipsum primis in faucibus.</p>
             </div>
         </div>
     </>

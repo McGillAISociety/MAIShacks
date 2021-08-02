@@ -1,4 +1,4 @@
 // TODO: implement
 export default function FAQ() {
-    return <p>FAQ</p>
+    return <h1>Frequently Asked Questions</h1>
 }

@@ -1,4 +1,4 @@
 // TODO: implement
 export default function Info() {
-    return <p>Sponsors</p>
+    return <h1>Sponsors</h1>
 }

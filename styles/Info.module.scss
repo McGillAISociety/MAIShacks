@@ -7,18 +7,49 @@
     margin-top: -390px;
 }
 
-// TODO: implement these subclasses to match the figma!
+%bubble-border {
+	border: 3px solid black;
+    box-shadow: 10px 10px var(--red);
+}
+
+
+// TODO: bugfix the pointers!
+%bubble-pointer {
+    content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+    @extend %bubble-border;
+}
+
 .bubble {
-    padding: 10px;
+    position: relative;
+    h2 {
+        text-align: center;
+    }
+    @extend %bubble-border;
+    border-radius: 10px;
+    padding: 20px;
     height: 400px;
-    width: 320px;
-    &--left {
-
+    margin: 15px;
+    max-width: 320px;
+    &--left:after {
+        @extend %bubble-pointer;
+        border-left: 0;
+        margin-left: -25px;
+        margin-bottom: -50px;
     }
-    &--center {
-
+    &--center:after {
+        @extend %bubble-pointer;
+        margin-left: -50px;
+        margin-bottom: -50px;
     }
-    &--right {
-
+    &--right:after {
+        @extend %bubble-pointer;
+        border-right: 0;
+        margin-left: -25px;
+        margin-bottom: -50px;
     }
 }
