@@ -1,44 +1,64 @@
+%relative-center {
+    position: relative;
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
 .background {
     width: 100%;
     overflow: hidden;
     position: absolute;
-    %shared {
-        position: relative;
-        width: 100%;
-        min-width: 1300px;
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-        transform: translateX(-50%);
-    }
     &__sky {
-        @extend %shared;
+        @extend %relative-center;
+        min-width: 1500px;
         z-index: -2;
     }
     &__clouds {
-        @extend %shared;
+        @extend %relative-center;
+        min-width: 1500px;
         z-index: -1;
-        top: -350px;
+        top: -450px;
     }
 }
 
-.content {
+.top-content {
+    position: relative;
     justify-content: space-evenly;
+    top: 50px;
+    height: 450px;
     &__big-logo {
-        padding-top: 50px;
-        height: 410px;
+        height: 450px;
     }
     &__small-logo-container {
         width: 100%;
+        align-self: flex-start;
     }
     &__small-logo {
-        align-self: flex-start;
         height: 150px;
-        margin-bottom: 15px;
     }
     &__text {
         width: 300px;
         color: white;
+    }
+}
+
+.bottom-content-container {
+    position: relative;
+    top: 25px;
+}
+
+.bottom-content {
+    margin-top: 20px;
+    text-align: center;
+    p {
+        font-weight: lighter;
+    }
+    span {
+        font-size: 60px;
+        font-weight: lighter;
     }
 }

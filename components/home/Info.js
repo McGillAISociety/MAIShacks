@@ -2,7 +2,7 @@ import styles from '../../styles/Info.module.scss';
 
 export default function Info() {
 
-    return <>
+    return <div className={styles['container']}>
         <div className="flex-container">
             <div>
                 <div className={'text-container'}>
@@ -32,5 +32,5 @@ export default function Info() {
                 <p>Ut eleifend quam orci, ac varius ligula posuere ac. Donec id ornare enim. Aliquam vel metus arcu. Vestibulum ante ipsum primis in faucibus.</p>
             </div>
         </div>
-    </>
+    </div>
 }
