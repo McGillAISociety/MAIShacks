@@ -17,6 +17,7 @@ export default function Accordion({label, children}) {
     }
 
     return <>
+        {/* TODO: make this not have bottom corner radiuses when isOpen? */}
         <div className={`flex ${styles['label-container']}`}>
             <h3 className={styles['label']}>{label}</h3>
             {isOpen ?
@@ -26,6 +27,7 @@ export default function Accordion({label, children}) {
             }
             
         </div>
+        {/* TODO: make this the same width as the label! */}
         {isOpen &&
             <div className={`card-border ${styles['content']}`}>
                 {children}
