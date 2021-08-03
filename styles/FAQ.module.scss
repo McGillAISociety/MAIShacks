@@ -1,0 +1,21 @@
+.pluggy-boi {
+    height: 700px;
+    position: absolute;
+}
+
+.accordions {
+    flex-direction: column;
+    padding-left: 200px;
+    width: 650px;
+}
+
+.accordion {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .accordions {
+      padding: 0 20px 0 20px;
+      margin-right: 30px;
+    }
+}

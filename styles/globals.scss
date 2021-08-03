@@ -10,6 +10,7 @@
   font-family: Montserrat, sans-serif;
 }
 
+// TODO: simplify the global classes if I don't end up using them
 %flex {
   display: flex;
   align-items: center;
@@ -29,6 +30,16 @@
   @extend %flex;
   @extend %container;
   flex-wrap: wrap;
+}
+
+.card-border {
+  border-radius: 10px;
+  border: 3px solid black;
+  box-shadow: 10px 10px var(--red);
+}
+
+.top-margin {
+  margin-top: 20px;
 }
 
 h1 {
@@ -55,7 +66,7 @@ p {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .mobile-hide {
     display: none;
   }

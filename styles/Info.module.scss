@@ -1,18 +1,13 @@
 .connecty-boi {
     max-width: 80%;
-    width: 850px;
+    width: 1000px;
     position: relative;
-    left: 170px;
-    margin-top: -350px;
-}
-
-%bubble-border {
-	border: 3px solid black;
-    box-shadow: 10px 10px var(--red);
+    left: 180px;
+    margin-top: -380px;
 }
 
 
-// TODO: bugfix the pointers!
+// TODO: bugfix the pointers! Need a way to include the card-border styling in them too
 %bubble-pointer {
     content: '';
 	position: absolute;
@@ -20,7 +15,6 @@
 	left: 50%;
 	width: 0;
 	height: 0;
-    @extend %bubble-border;
 }
 
 .bubble {
@@ -28,12 +22,10 @@
     h2 {
         text-align: center;
     }
-    @extend %bubble-border;
-    border-radius: 10px;
     padding: 20px;
     height: 400px;
     margin: 15px;
-    max-width: 320px;
+    width: 320px;
     &--left:after {
         @extend %bubble-pointer;
         border-left: 0;

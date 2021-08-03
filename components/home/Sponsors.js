@@ -1,4 +1,6 @@
 // TODO: implement
 export default function Info() {
-    return <h1>Sponsors</h1>
+    return <div className="top-margin">
+        <h1>Sponsors</h1>
+    </div>
 }
