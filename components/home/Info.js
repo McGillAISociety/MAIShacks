@@ -13,7 +13,7 @@ export default function Info() {
                         Donec dictum ut nulla nec ultricies. Morbi non enim molestie felis viverra efficitur vel ac libero. Suspendisse potenti. Phasellus eget faucibus dui. Nam luctus eleifend rhoncus. Ut eleifend quam orci, ac varius ligula posuere ac. Donec id ornare enim. Aliquam vel metus arcu. Vestibulum ante ipsum primis in faucibus.
                         </p>
                     </div>
-                <img src="/images/connecty_boi.png" alt="Connecty Boi"
+                <img src="/images/connecty_boi.png" alt="connecty boi"
                     className={`${styles['connecty-boi']} mobile-hide`}
                 />
             </div>

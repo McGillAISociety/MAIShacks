@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "../../styles/Accordion.module.scss";
 import { FaPlus, FaMinus } from 'react-icons/fa'
 
+// TODO: I find the unopened state styling a bit flat; change?
 // TODO: animate the icon/label on hover/click?
 // TODO: animate the content expanding?
 
@@ -25,7 +26,6 @@ export default function Accordion({label, children}) {
                 :
                 <FaPlus {...iconProps} />
             }
-            
         </div>
         {/* TODO: make this the same width as the label! */}
         {isOpen &&

@@ -1,0 +1,39 @@
+.background {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    %shared {
+        position: relative;
+        width: 100%;
+        min-width: 1300px;
+    }
+    &__sky {
+        @extend %shared;
+        z-index: -2;
+    }
+    &__clouds {
+        @extend %shared;
+        z-index: -1;
+        top: -350px;
+    }
+}
+
+.content {
+    justify-content: space-evenly;
+    &__big-logo {
+        padding-top: 50px;
+        height: 410px;
+    }
+    &__small-logo-container {
+        width: 100%;
+    }
+    &__small-logo {
+        align-self: flex-start;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+    &__text {
+        width: 300px;
+        color: white;
+    }
+}

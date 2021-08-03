@@ -1,4 +1,5 @@
 .countdown-container {
+    margin-top: 20px;
     text-align: center;
     p {
         font-weight: lighter;
@@ -9,3 +10,9 @@
     font-size: 60px;
     font-weight: lighter;
 }
+
+@media screen and (max-width: 1000px) {
+    .countdown-container {
+        margin-top: 220px;
+    }
+  }
