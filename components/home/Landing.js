@@ -15,11 +15,7 @@ export default function Landing() {
     </div>;
 
     return <>
-        <div className={styles['background']}>
-            <img src='/images/sky.png' alt='sky' className={styles['background__sky']} />
-            {/* TODO: MAKE THE TOP AND BOTTOM CONTENT RELATIVE TO THE CLOUDS!!! */}
-            <img src='/images/clouds.png' alt='clouds' className={styles['background__clouds']}/>
-        </div>
+        <div className={styles['background']}></div>
         <div className={styles['top-content']}>
             <div className={`mobile-hide flex-container ${styles['top-content__desktop-container']}`}>
                 <img src='/images/logo_big.png' alt='big logo'

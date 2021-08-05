@@ -1,28 +1,11 @@
-%relative-center {
-    position: relative;
-    width: 100%;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
 .background {
     width: 100%;
     overflow: hidden;
     position: absolute;
-    &__sky {
-        @extend %relative-center;
-        min-width: 1500px;
-        z-index: -2;
-    }
-    &__clouds {
-        @extend %relative-center;
-        min-width: 1500px;
-        z-index: -1;
-        top: -450px;
-    }
+    height: 500px;
+    background-image: url(../public/images/background.png);
+    background-repeat: repeat-x;
+    background-size: auto 500px;
 }
 
 .top-content {
@@ -46,7 +29,6 @@
 
 .bottom-content-container {
     position: relative;
-    top: 25px;
 }
 
 .bottom-content {
