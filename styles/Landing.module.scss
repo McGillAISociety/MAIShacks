@@ -27,22 +27,20 @@
 
 .top-content {
     position: relative;
-    justify-content: space-evenly;
     top: 50px;
     height: 450px;
-    &__big-logo {
-        height: 450px;
-    }
-    &__small-logo-container {
-        width: 100%;
-        align-self: flex-start;
-    }
-    &__small-logo {
-        height: 150px;
+    &__desktop-container {
+        justify-content: space-evenly;
     }
     &__text {
         width: 300px;
         color: white;
+    }
+    &__desktop-logo {
+        height: 400px;
+    }
+    &__mobile-logo {
+        height: 150px;
     }
 }
 

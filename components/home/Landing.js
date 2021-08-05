@@ -9,21 +9,31 @@ export default function Landing() {
         return num.length === 1 ? `0${num}` : num;
     }
 
+    const text = <div className={styles['top-content__text']}>
+        <p>Join Canada&apos;s 150+ brightest minds for a hackathon that will knock your socks off!</p>
+        {/* TODO: apply button */}
+    </div>;
+
     return <>
         <div className={styles['background']}>
             <img src='/images/sky.png' alt='sky' className={styles['background__sky']} />
             {/* TODO: ideally, want the top and bottom content positioned relative to the clouds, not the entire backgorund div */}
             <img src='/images/clouds.png' alt='clouds' className={styles['background__clouds']}/>
         </div>
-        <div className={`flex-container ${styles['top-content']}`}>
-            <img src='/images/logo_big.png' alt='big logo' className={`mobile-hide ${styles['top-content__big-logo']}`} />
-            <div className={`desktop-hide flex ${styles['top-content__small-logo-container']}`}>
-                <img src='/images/logo_small.png' alt='small logo' className={styles['top-content__small-logo']}/>
+        <div className={styles['top-content']}>
+            <div className={`mobile-hide flex-container ${styles['top-content__desktop-container']}`}>
+                <img src='/images/logo_big.png' alt='big logo'
+                    className={`mobile-hide ${styles['top-content__desktop-logo']}`} />
+                {text}
             </div>
-            {/* TODO: fix mobile text alignment! */}
-            <div className={`align-top-mobile ${styles['top-content__text']}`}>
-                <p>Join Canada&apos;s 150+ brightest minds for a hackathon that will knock your socks off!</p>
-                {/* TODO: apply button */}
+            <div className="desktop-hide">
+                <div className="flex">
+                    <img src='/images/logo_small.png' alt='small logo'
+                        className={styles['top-content__mobile-logo']} />
+                </div>
+                <div className="flex">
+                    {text}
+                </div>
             </div>
         </div>
         <div className={`flex-container ${styles['bottom-content-container']}`}>
