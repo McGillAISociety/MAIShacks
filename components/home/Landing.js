@@ -17,7 +17,7 @@ export default function Landing() {
     return <>
         <div className={styles['background']}>
             <img src='/images/sky.png' alt='sky' className={styles['background__sky']} />
-            {/* TODO: ideally, want the top and bottom content positioned relative to the clouds, not the entire backgorund div */}
+            {/* TODO: MAKE THE TOP AND BOTTOM CONTENT RELATIVE TO THE CLOUDS!!! */}
             <img src='/images/clouds.png' alt='clouds' className={styles['background__clouds']}/>
         </div>
         <div className={styles['top-content']}>
