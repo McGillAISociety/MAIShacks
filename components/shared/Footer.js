@@ -1,23 +1,33 @@
 import styles from '../../styles/Footer.module.scss';
+import { MdEmail as Email } from 'react-icons/md';
+import {
+    FaFacebookF as Facebook,
+    FaInstagram as Instagram,
+    FaLinkedinIn as Linkedin,
+    FaTwitter as Twitter,
+    FaGithub as Github,
+    FaMediumM as Medium
+} from 'react-icons/fa';
+
+const iconProps = { color: 'white', size: 40, className: styles['footer__logo'] };
 
 const socials = [
-    { name: 'email', link: 'mailto:mcgillaicontact@gmail.com' },
-    { name: 'facebook', link: 'https://www.facebook.com/McGillAI/' },
-    { name: 'instagram', link: 'https://www.instagram.com/mcgillaisociety/' },
-    { name: 'linkedin', link: 'https://www.linkedin.com/company/mcgill-artificial-intelligence-society/' },
-    { name: 'twitter', link: 'https://twitter.com/mcgillaisociety' },
-    { name: 'github', link: 'https://github.com/McGillAISociety' },
-    { name: 'medium', link: 'https://medium.com/mcgill-artificial-intelligence-review'}
+    { icon: <Email {...iconProps } />, link: 'mailto:mcgillaicontact@gmail.com' },
+    { icon: <Facebook {... iconProps} />, link: 'https://www.facebook.com/McGillAI/' },
+    { icon: <Instagram {... iconProps} />, link: 'https://www.instagram.com/mcgillaisociety/' },
+    { icon: <Linkedin {... iconProps} />, link: 'https://www.linkedin.com/company/mcgill-artificial-intelligence-society/' },
+    { icon: <Twitter {... iconProps} />, link: 'https://twitter.com/mcgillaisociety' },
+    { icon: <Github {... iconProps} />, link: 'https://github.com/McGillAISociety' },
+    { icon: <Medium {... iconProps} />, link: 'https://medium.com/mcgill-artificial-intelligence-review'}
 ]
 
 // TODO: code of conduct
 export default function Footer() {
     return <footer className={styles['footer']}>
-        <div className='flex'>
+        <div className="flex">
             {socials.map((social, index) => (
                 <a key={index} href={social.link} target="_blank" rel="noreferrer">
-                    <img  src={`/images/footer-logos/${social.name}.png`} alt=""
-                    className={styles['footer__logo']}/>
+                    { social.icon }
                 </a>
             ))}
         </div>
