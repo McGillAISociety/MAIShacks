@@ -11,12 +11,13 @@ const socials = [
 ]
 
 // TODO: code of conduct
+// TODO: fix wonky sizing of images
 export default function Footer() {
     return <footer className={styles['footer']}>
         <div className='flex'>
             {socials.map((social, index) => (
                 <a key={index} href={social.link} target="_blank" rel="noreferrer">
-                    <img  src={`/images/footer-logos/${social.name}.png`} alt=""
+                    <img src={`/images/footer-logos/${social.name}.png`} alt=""
                     className={styles['footer__logo']}/>
                 </a>
             ))}
