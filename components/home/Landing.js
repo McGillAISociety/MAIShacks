@@ -11,10 +11,9 @@ export default function Landing() {
 
     const text = <div className={styles['top-content__text']}>
         <p>
-            Join Canada&apos;s 150+ brightest minds for a hackathon that will knock your socks off!
+            Join Canada&apos;s 150+ brightest minds for a 24hr virtual AI hackathon!
         </p>
-        {/* TODO: need the link to the application */}
-        <Button expand onClick={() => window.open('https://www.mcgillai.com/')}>
+        <Button expand onClick={() => window.open('https://forms.gle/YM71yc3zLghNzSMDA')}>
             Apply Now!
         </Button>
     </div>;
@@ -43,18 +42,34 @@ export default function Landing() {
         </div>
         <div className={`flex-container ${styles['bottom-content-container']}`}>
             <div className={styles['bottom-content']}>
-                <h2>October 3rd to 4th, 2021</h2>
-                <p>Schedule, challenges, and prizes revealed in:</p>
-                <Countdown
-                    // TODO: make sure this is the correct date
-                    date={Date.parse("2021-09-28T00:00:00+0000")}
-                    renderer={({ days, hours, minutes, seconds }) => (
-                        <span>
-                            {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
-                            {zeroify(minutes)}&nbsp;:&nbsp;{zeroify(seconds)}
-                        </span>
-                    )}
-                />
+                <h2>October 3rd to 4th, 2021 &nbsp;&middot;&nbsp; Location TBA</h2>
+                <div className={`flex-container ${styles['bottom-content__countdowns']}`}>
+                {/* TODO: make these the correct dates */}
+                    <div>
+                        <p>Applications due in:</p>
+                        <Countdown
+                            date={Date.parse("2021-09-28T00:00:00+0000")}
+                            renderer={({ days, hours, minutes, seconds }) => (
+                                <span>
+                                    {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
+                                    {zeroify(minutes)}&nbsp;:&nbsp;{zeroify(seconds)}
+                                </span>
+                            )}
+                        />
+                    </div>
+                    <div>
+                        <p>Schedule, challenges, and prizes revealed in:</p>
+                        <Countdown
+                            date={Date.parse("2021-09-28T00:00:00+0000")}
+                            renderer={({ days, hours, minutes, seconds }) => (
+                                <span>
+                                    {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
+                                    {zeroify(minutes)}&nbsp;:&nbsp;{zeroify(seconds)}
+                                </span>
+                            )}
+                        />
+                    </div>
+                </div>
             </div>
         </div>
     </>;

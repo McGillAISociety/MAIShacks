@@ -22,7 +22,7 @@ export default function Info() {
             <div className={`card-border ${styles['bubble']} ${styles['bubble--left']}`}>
                 <h2>Social Networking and Team Making</h2>
                 <p>Through the use of social media and communication platforms such as Microsoft Teams, MAIS Hacks will continue to help you meet new people and form new friendships.</p>
-                <p>Don't worry if you apply alone, there will be a Facebook group and channel dedicated to networking with your peers and team matching.</p>
+                <p>Don&apos;t worry if you apply alone, there will be a Facebook group and channel dedicated to networking with your peers and team matching.</p>
             </div>
             <div className={`card-border ${styles['bubble']} ${styles['bubble--center']}`}>
                 <h2>Workshops and Activities</h2>
@@ -32,6 +32,7 @@ export default function Info() {
             <div className={`card-border ${styles['bubble']} ${styles['bubble--right']}`}>
                 <h2>Projects</h2>
                 <p>Build an awesome AI project with your teammates! It will help you gain experience, opportunities, and exposure to the field of AI. And, as always, there will be many prizes to be won!</p>
+                {/* TODO: add links to past projects */}
                 <p>Showcase all your skills through your AI project!</p>
             </div>
         </div>
