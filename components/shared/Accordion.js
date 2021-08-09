@@ -27,7 +27,6 @@ export default function Accordion({label, children}) {
                 <FaPlus {...iconProps} />
             }
         </div>
-        {/* TODO: make this the same width as the label! */}
         {isOpen &&
             <div className={`card-border ${styles['content']}`}>
                 {children}
