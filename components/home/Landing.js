@@ -48,7 +48,7 @@ export default function Landing() {
                     <div>
                         <p>Applications due in:</p>
                         <Countdown
-                            date={Date.parse("2021-09-28T00:00:00+0000")}
+                            date={Date.parse("2021-09-15T00:00:00+0000")}
                             renderer={({ days, hours, minutes, seconds }) => (
                                 <span>
                                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
