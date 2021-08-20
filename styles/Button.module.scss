@@ -1,9 +1,14 @@
+// TODO: fancier button animations, maybe a shine or something?
+
 .button {
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     padding: 15px;
     font-weight: bold;
     font-size: x-large;
     cursor: pointer;
+    &:hover {
+        background-color: white;
+    }
 }
 
 .expand {

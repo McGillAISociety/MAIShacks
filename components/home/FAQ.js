@@ -15,7 +15,6 @@ const FAQs = [
 export default function FAQ() {
     return <div className="top-margin">
         <h1>Frequently Asked Questions</h1>
-        {/* TODO: the plug doesn't stay with the rest of the page content when super zoomed out - it stays to the right; address? */}
         <img src="/images/pluggy_boi.png" alt="pluggy boi"
             className={`${styles['pluggy-boi']} mobile-hide`} />
         <div className="flex-container">

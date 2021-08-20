@@ -12,7 +12,7 @@ export default function Accordion({label, children}) {
 
     const iconProps = {
         onClick: () => setIsOpen(!isOpen),
-        className: styles['icon'],
+        className: `hover-grow-large ${styles['icon']}`,
         color: 'white',
         size: 20
     }

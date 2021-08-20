@@ -27,13 +27,13 @@ export default function Landing() {
         <div className={styles['top-content']}>
             <div className={`mobile-hide flex-container ${styles['top-content__desktop-container']}`}>
                 <img src='/images/logo_big.png' alt='big logo'
-                    className={styles['top-content__desktop-logo']} />
+                    className={`bob-up-down ${styles['top-content__desktop-logo']}`} />
                 {text}
             </div>
             <div className="desktop-hide">
                 <div className="flex">
                     <img src='/images/logo_small.png' alt='small logo'
-                        className={styles['top-content__mobile-logo']} />
+                        className={`bob-up-down ${styles['top-content__mobile-logo']}`} />
                 </div>
                 <div className="flex">
                     {text}
@@ -42,7 +42,7 @@ export default function Landing() {
         </div>
         <div className={`flex-container ${styles['bottom-content-container']}`}>
             <div className={styles['bottom-content']}>
-                <h2>October 3nd to 3rd, 2021 &nbsp;&middot;&nbsp; Location TBA</h2>
+                <h2>October 2nd to 3rd, 2021 &nbsp;&middot;&nbsp; Location TBA</h2>
                 <div className={`flex-container ${styles['bottom-content__countdowns']}`}>
                 {/* TODO: make these the correct dates */}
                     <div>
@@ -58,7 +58,7 @@ export default function Landing() {
                         />
                     </div>
                     <div>
-                        <p>Schedule, challenges, and prizes revealed in:</p>
+                        <p>Schedule, challenges, and prizes drop in:</p>
                         <Countdown
                             date={Date.parse("2021-09-28T00:00:00+0000")}
                             renderer={({ days, hours, minutes, seconds }) => (

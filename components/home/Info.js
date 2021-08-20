@@ -2,7 +2,7 @@ import styles from '../../styles/Info.module.scss';
 
 export default function Info() {
 
-    return <div className={styles['container']}>
+    return <div>
         <div className="flex-container">
             <div>
                 <div className={'text-container'}>

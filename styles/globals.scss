@@ -77,3 +77,32 @@ p {
     display: none;
   }
 }
+
+.bob-up-down {
+  animation: bob-up-down 4s linear infinite;
+  position: relative;
+}
+
+@keyframes bob-up-down {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 15px;
+  }
+}
+
+.hover-grow-large {
+  transition: transform .1s;
+  &:hover {
+    transform: scale(1.5) perspective(1px)
+  }
+}
+
+.hover-grow-small {
+  transition: transform .1s;
+  &:hover {
+    transform: scale(1.05) perspective(1px)
+  }
+}
+
