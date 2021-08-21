@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 %container {
@@ -29,7 +30,6 @@
 .flex-container {
   @extend %flex;
   @extend %container;
-  flex-wrap: wrap;
 }
 
 .card-border {

@@ -28,6 +28,12 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .top-content__text {
+        padding: 0;
+    }
+}
+
 .bottom-content-container {
     position: relative;
 }
@@ -46,7 +52,7 @@
         font-weight: lighter;
     }
     span {
-        font-size: 60px;
+        font-size: 55px;
         font-weight: lighter;
     }
 }

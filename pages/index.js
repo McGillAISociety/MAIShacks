@@ -10,7 +10,7 @@ import MetaTags from '../components/shared/MetaTags'
 export default function Home() {
   return <>
     <MetaTags title="MAIS Hacks 2021" description="Canada's largest AI hackathon"
-              imagePath="/images/banner.png" route="/" />
+              imagePath="/meta/banner.png" route="/" />
 
     <Landing />
     <Info />

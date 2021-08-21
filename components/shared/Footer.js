@@ -9,7 +9,7 @@ import {
     FaMediumM as Medium
 } from 'react-icons/fa';
 
-const iconProps = { color: 'white', size: 40, className: styles['footer__logo'] };
+const iconProps = { color: 'white', size: 30, className: styles['footer__logo'] };
 
 const socials = [
     { icon: <Email {...iconProps } />, link: 'mailto:mcgillaicontact@gmail.com' },

@@ -18,6 +18,7 @@ export default function Accordion({label, children}) {
 
     return <>
         {/* TODO: make this not have bottom corner radiuses when isOpen? */}
+        {/* TODO: make only the text wrap, so the plus sign stays to the right on mobile */}
         <div className={`flex ${styles['label-container']}`}>
             <h3 className={styles['label']}>{label}</h3>
             {isOpen ?
