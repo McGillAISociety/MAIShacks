@@ -81,6 +81,20 @@ a {
   .desktop-hide {
     display: none;
   }
+
+  .hover-grow-large {
+    transition: transform .1s;
+    &:hover {
+      transform: scale(1.5) perspective(1px)
+    }
+  }
+
+  .hover-grow-small {
+    transition: transform .1s;
+    &:hover {
+      transform: scale(1.05) perspective(1px)
+    }
+  }
 }
 
 .bob-up-down {
@@ -96,18 +110,3 @@ a {
     bottom: 15px;
   }
 }
-
-.hover-grow-large {
-  transition: transform .1s;
-  &:hover {
-    transform: scale(1.5) perspective(1px)
-  }
-}
-
-.hover-grow-small {
-  transition: transform .1s;
-  &:hover {
-    transform: scale(1.05) perspective(1px)
-  }
-}
-

@@ -11,6 +11,8 @@ const FAQs = [
     // { question: "Do I need to create any accounts?", answer: "You will need to create a DevPost account to submit your project at the end of the hackthon." }
 ];
 
+// TODO: mayhaps change the laout with the pluggy boi, since it leaves a lot of whitespace on the right...
+// and doesn't look great on bigger screens
 export default function FAQ() {
     return <div className="top-margin">
         <h1>Frequently Asked Questions</h1>
