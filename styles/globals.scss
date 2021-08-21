@@ -57,6 +57,11 @@ p {
   margin: 10px 0 10px 0;
 }
 
+a {
+  color: var(--red);
+  font-weight: 500;
+}
+
 .text-container {
   width: auto;
   max-width: 650px;

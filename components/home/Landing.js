@@ -11,7 +11,7 @@ export default function Landing() {
 
     const text = <div className={styles['top-content__text']}>
         <p>
-            Join Canada&apos;s 150+ brightest minds for a 24hr virtual AI hackathon!
+            Join Canada&apos;s 150+ brightest minds for a 24 hour hybrid AI hackathon!
         </p>
         <Button expand onClick={() => window.open('https://forms.gle/YM71yc3zLghNzSMDA')}>
             Apply Now!
@@ -42,7 +42,7 @@ export default function Landing() {
         </div>
         <div className={`flex-container ${styles['bottom-content-container']}`}>
             <div className={styles['bottom-content']}>
-                <h2>October 2nd to 3rd, 2021 &nbsp;&middot;&nbsp; Location TBA</h2>
+                <h2>October 2nd to 3rd, 2021 &nbsp;&middot;&nbsp; MILA // Online</h2>
                 <div className={`flex-container ${styles['bottom-content__countdowns']}`}>
                 {/* TODO: make these the correct dates */}
                     <div>
