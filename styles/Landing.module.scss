@@ -50,10 +50,18 @@
     }
     p {
         font-weight: lighter;
+        font-size: x-large;
     }
-    span {
-        font-size: 55px;
+    &__countdown {
+        font-size: 60px;
         font-weight: lighter;
+        font-variant-numeric: tabular-nums;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .bottom-content__countdown {
+        font-size: 40px;
     }
 }
 
