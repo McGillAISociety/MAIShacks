@@ -22,7 +22,7 @@ export default function Info() {
         <div className="flex-container">
             <div className={`card-border ${styles['bubble']} ${styles['bubble--left']}`}>
                 <h2>Social Networking and Team Making</h2>
-                <p>Don&apos;t worry if you apply alone, there will be ample opportunities to connecting with your peers and matching yourself with the perfect team!</p>
+                <p>Don&apos;t worry if you apply alone, there will be ample opportunities to connect with your peers and match yourself with the perfect team!</p>
                 <p>Whether you&apos;re participating online or in-person, MAIS Hacks provides various resources, social activities and networking opportunities to help you make lasting connections.</p>
             </div>
             <div className={`card-border ${styles['bubble']} ${styles['bubble--center']}`}>
