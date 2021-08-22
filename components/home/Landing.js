@@ -50,7 +50,7 @@ export default function Landing() {
                         <Countdown
                             date={Date.parse("2021-09-15T00:00:00+0000")}
                             renderer={({ days, hours, minutes, seconds }) => (
-                                <span>
+                                <span className={styles['bottom-content__countdown']}>
                                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
                                     {zeroify(minutes)}&nbsp;:&nbsp;{zeroify(seconds)}
                                 </span>
@@ -62,7 +62,7 @@ export default function Landing() {
                         <Countdown
                             date={Date.parse("2021-09-28T00:00:00+0000")}
                             renderer={({ days, hours, minutes, seconds }) => (
-                                <span>
+                                <span className={styles['bottom-content__countdown']}>
                                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
                                     {zeroify(minutes)}&nbsp;:&nbsp;{zeroify(seconds)}
                                 </span>
