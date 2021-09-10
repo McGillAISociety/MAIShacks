@@ -9,7 +9,7 @@ export default function Info() {
                         <h1>Canada&apos;s Largest AI Hackathon Goes Hybrid.</h1>
                         <p>Innovation lies at the heart of MAIS Hacks, with past winners building solutions for topics ranging between music composition, plant pathology, and security patrols.
                         </p>
-                        <p>This year, contingent upon the COVID-19 situation in Montréal and with strong health protocols in place, we&apos;re thrilled to offer a hybrid format with in-person components at <a href="https://mila.quebec/en/" target="_blank" rel="noreferrer">Mila - the Quebec AI Institute</a>!</p>
+                        <p>This year, contingent upon the COVID-19 situation in Montréal and with strong health protocols in place, we&apos;re thrilled to offer optional in-person components at <a href="https://mila.quebec/en/" target="_blank" rel="noreferrer">Mila - the Quebec AI Institute</a>! And we&apos;ll still offer a fantastic online experience through platforms such as Discord and Gather.town.</p>
                         <p>
                         Regardless of whether you’re an AI novice or veteran, everyone is welcome to join. Just bring a desire to learn about how AI can be used to overcome societal problems and boost competitiveness – and we’ll provide the mentors, computing credits, and swag.
                         </p>
