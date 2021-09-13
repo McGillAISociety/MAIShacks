@@ -45,9 +45,9 @@ export default function Landing() {
                 <h2>October 2nd to 3rd, 2021 &nbsp;&middot;&nbsp; MILA // Online</h2>
                 <div className={`flex-container ${styles['bottom-content__countdowns']}`}>
                     <div>
-                        <p>First round applications due in:</p>
+                        <p>Second round applications close in:</p>
                         <Countdown
-                            date={Date.parse("2021-09-13T00:00:00+0000")}
+                            date={Date.parse("2021-09-21T00:00:00+0000")}
                             renderer={({ days, hours, minutes, seconds }) => (
                                 <span className={styles['bottom-content__countdown']}>
                                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
