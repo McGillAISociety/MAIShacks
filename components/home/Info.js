@@ -9,7 +9,7 @@ export default function Info() {
                         <h1>Canada&apos;s Largest AI Hackathon Goes Hybrid.</h1>
                         <p>Innovation lies at the heart of MAIS Hacks, with past winners building solutions for topics ranging between music composition, plant pathology, and security patrols.
                         </p>
-                        <p>This year, contingent upon the COVID-19 situation in Montréal and with strong health protocols in place, we&apos;re thrilled to offer optional in-person components at <a href="https://mila.quebec/en/" target="_blank" rel="noreferrer">Mila - the Quebec AI Institute</a>! And we&apos;ll still offer a fantastic online experience through platforms such as Discord and Gather.town.</p>
+                        <p>This year, contingent upon the COVID-19 situation in Montréal and with strong health protocols in place, we&apos;re thrilled to offer optional in-person components! And we&apos;ll still offer a fantastic online experience through platforms such as Discord and Gather.town.</p>
                         <p>
                         Regardless of whether you’re an AI novice or veteran, everyone is welcome to join. Just bring a desire to learn about how AI can be used to overcome societal problems and boost competitiveness – and we’ll provide the mentors, computing credits, and swag.
                         </p>
@@ -23,7 +23,7 @@ export default function Info() {
             <div className={`card-border ${styles['bubble']} ${styles['bubble--left']}`}>
                 <h2>Social Networking and Team Making</h2>
                 <p>Don&apos;t worry if you apply alone, there will be ample opportunities to connect with your peers and match yourself with the perfect team!</p>
-                <p>Whether you&apos;re participating online or in-person, MAIS Hacks provides various resources, social activities and networking opportunities to help you make lasting connections.</p>
+                <p>Whether you&apos;re participating fully online or joining in our in-person components, MAIS Hacks will provide social activities and networking opportunities to help you make lasting connections.</p>
             </div>
             <div className={`card-border ${styles['bubble']} ${styles['bubble--center']}`}>
                 <h2>Workshops and Activities</h2>

@@ -1,7 +1,7 @@
 import styles from '../../styles/Sponsors.module.scss'
 
 const sponsors = [
-    { name: 'mila', url: 'https://mila.quebec/en/', imgWidth: 300 },
+    // { name: 'mila', url: 'https://mila.quebec/en/', imgWidth: 300 },
     { name: 'sama', url: 'https://www.sama.com/careers', imgWidth: 300 },
     { name: 'cae', url: 'https://www.cae.com/careers/', imgWidth: 200 },
     { name: 'squarepoint', url: 'https://www.squarepoint-capital.com/', imgWidth: 150 }

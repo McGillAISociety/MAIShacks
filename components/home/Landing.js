@@ -42,7 +42,7 @@ export default function Landing() {
         </div>
         <div className={`flex-container ${styles['bottom-content-container']}`}>
             <div className={styles['bottom-content']}>
-                <h2>October 2nd to 3rd, 2021 &nbsp;&middot;&nbsp; MILA // Online</h2>
+                <h2>October 2nd to 3rd, 2021</h2>
                 <div className={`flex-container ${styles['bottom-content__countdowns']}`}>
                     <div>
                         <p>Second round applications close in:</p>
