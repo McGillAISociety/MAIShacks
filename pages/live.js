@@ -1,3 +1,9 @@
+import Resources from "../components/live/Resources";
+import Schedule from '../components/live/Schedule';
+
 export default function Live() {
-    return <p>Live</p>;
+    return <>
+        <Resources />
+        <Schedule />
+    </>;
 }
