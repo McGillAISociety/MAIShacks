@@ -11,7 +11,7 @@ export default function Landing() {
 
     const text = <div className={styles['top-content__text']}>
         <p>
-            Join Canada&apos;s 150+ brightest minds for a 24 hour hybrid AI hackathon!
+            Join Canada&apos;s 150+ brightest minds for a 24 hour AI hackathon!
         </p>
         <Button expand onClick={() => window.open('https://forms.gle/YM71yc3zLghNzSMDA')}>
             Apply Now!
