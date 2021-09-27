@@ -96,6 +96,13 @@ a {
       transform: scale(1.05) perspective(1px)
     }
   }
+
+  .hover-brighten {
+    &:hover {
+        background-color: white;
+    }
+}
+
 }
 
 .bob-up-down {

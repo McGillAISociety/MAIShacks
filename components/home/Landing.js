@@ -13,8 +13,8 @@ export default function Landing() {
         <p>
             Join Canada&apos;s 150+ brightest minds for a 24 hour AI hackathon!
         </p>
-        <Button expand onClick={() => window.open('https://forms.gle/YM71yc3zLghNzSMDA')}>
-            Apply Now!
+        <Button expand disabled>
+            Applications Closed
         </Button>
     </div>;
 
@@ -59,7 +59,7 @@ export default function Landing() {
                     <div>
                         <p>Schedule, challenges, and prizes drop in:</p>
                         <Countdown
-                            date={Date.parse("2021-09-28T00:00:00+0000")}
+                            date={Date.parse("2021-09-29T00:00:00+0000")}
                             renderer={({ days, hours, minutes, seconds }) => (
                                 <span className={styles['bottom-content__countdown']}>
                                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
