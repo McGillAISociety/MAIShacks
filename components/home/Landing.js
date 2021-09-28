@@ -1,6 +1,7 @@
 import styles from '../../styles/Landing.module.scss';
 import Button from '../shared/Button';
 import Countdown from 'react-countdown';
+import Link from 'next/link';
 
 export default function Landing() {
 
@@ -13,9 +14,13 @@ export default function Landing() {
         <p>
             Join Canada&apos;s 150+ brightest minds for a 24 hour AI hackathon!
         </p>
-        <Button expand disabled>
-            Applications Closed
-        </Button>
+        <Link passHref href='/live'>
+            <div>
+                <Button expand onClick={() => {}}>
+                    Go to live site
+                </Button>
+            </div>
+        </Link>
     </div>;
 
     return <>
@@ -45,9 +50,9 @@ export default function Landing() {
                 <h2>October 2nd to 3rd, 2021</h2>
                 <div className={`flex-container ${styles['bottom-content__countdowns']}`}>
                     <div>
-                        <p>Second round applications close in:</p>
+                        <p>Opening ceremony in:</p>
                         <Countdown
-                            date={Date.parse("2021-09-21T00:00:00+0000")}
+                            date={Date.parse("2021-10-03T09:00:00+0000")}
                             renderer={({ days, hours, minutes, seconds }) => (
                                 <span className={styles['bottom-content__countdown']}>
                                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
@@ -56,7 +61,7 @@ export default function Landing() {
                             )}
                         />
                     </div>
-                    <div>
+                    {/* <div>
                         <p>Schedule, challenges, and prizes drop in:</p>
                         <Countdown
                             date={Date.parse("2021-09-29T00:00:00+0000")}
@@ -67,7 +72,7 @@ export default function Landing() {
                                 </span>
                             )}
                         />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
