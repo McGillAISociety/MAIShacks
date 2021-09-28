@@ -59,7 +59,7 @@ export default function Landing() {
                     <div>
                         <p>Schedule, challenges, and prizes drop in:</p>
                         <Countdown
-                            date={Date.parse("2021-09-29T00:00:00+0000")}
+                            date={Date.parse("2021-09-29T12:00:00+0000")}
                             renderer={({ days, hours, minutes, seconds }) => (
                                 <span className={styles['bottom-content__countdown']}>
                                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
