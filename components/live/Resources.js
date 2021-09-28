@@ -1,7 +1,6 @@
 import {
     FaDiscord as Discord,
-    FaDev as Devpost,
-    FaAlignLeft as CodeOfConduct
+    FaDev as Devpost
 } from 'react-icons/fa';
 
 import Button from "../shared/Button";
@@ -11,8 +10,7 @@ const iconProps = { size: 30 };
 
 const resources = [
     { icon: <Discord {...iconProps} />, text: "Discord", link: "https://discord.gg/uvmZmxZMVs" },
-    { icon: <Devpost {...iconProps} />, text: "Devpost", link: "" },
-    { icon: <CodeOfConduct {...iconProps} />, text: "Code of conduct", link: "" }
+    { icon: <Devpost {...iconProps} />, text: "Devpost", link: "" }
 ]
 
 export default function Resources() {
