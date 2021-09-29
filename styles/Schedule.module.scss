@@ -1,0 +1,38 @@
+%shared {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-container {
+    @extend %shared;
+    justify-content: space-between;
+    padding: 20px;
+
+    &__left-content{ 
+        justify-content: left;
+        flex-wrap: nowrap;
+    }
+
+    &__icon {
+        margin-right: 15px;
+    }
+}
+
+.hr {
+    @extend %shared;
+    height: 1px;
+    background-color: darkgray;
+}
+
+.day-title {
+    margin-top: 30px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.subtitle {
+    display: block;
+    text-align: center;
+}

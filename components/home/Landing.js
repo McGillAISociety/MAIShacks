@@ -1,4 +1,5 @@
 import styles from '../../styles/Landing.module.scss';
+import MainSiteLink from '../../components/shared/MainSiteLink';
 import Button from '../shared/Button';
 import Countdown from 'react-countdown';
 import Link from 'next/link';
@@ -25,10 +26,7 @@ export default function Landing() {
 
     return <>
         <div className={styles['background']}></div>
-        <a href="https://www.mcgillai.com/" target="_blank" rel="noreferrer">
-            <img className={styles['mais-logo']}
-                src="/images/mais_logo.png" alt="MAIS logo" />
-        </a>
+        <MainSiteLink />
         <div className={styles['top-content']}>
             <div className={`mobile-hide flex-container ${styles['top-content__desktop-container']}`}>
                 <img src='/images/logo_big.png' alt='big logo'
