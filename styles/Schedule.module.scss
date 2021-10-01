@@ -8,13 +8,32 @@
     justify-content: space-between;
     padding: 20px;
 
+    h3 {
+        margin-bottom: 3px;
+    }
+
+    p {
+        width: 50%;
+        text-align: right;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    flex-wrap: nowrap;
     &__left-content{ 
         justify-content: left;
         flex-wrap: nowrap;
     }
 
-    &__icon {
+    &__type-icon {
         margin-right: 15px;
+    }
+
+    &__platform-icon {
+        color: rgb(140, 140, 140);
+        margin-bottom: -5px;
+        margin-right: 2px;
+        margin-left: -2px;
     }
 }
 
@@ -30,9 +49,4 @@
     text-align: center;
     font-weight: 300;
     font-style: italic;
-}
-
-.subtitle {
-    display: block;
-    text-align: center;
 }
