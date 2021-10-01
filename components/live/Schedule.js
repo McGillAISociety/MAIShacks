@@ -12,7 +12,7 @@ const saturday = [
     { type: 'hacking', time: "11:00 AM", title: 'Hacking starts!', description: '' },
     { type: 'workshop', time: "1:00 - 2:00 PM", platform: 'zoom', title: 'Workshop 1', description: 'TBA' },
     { type: 'activity', time: "2:00 - 3:00 PM", platform: 'discord', title: 'Activity 1', description: 'Bob Ross MS Paint competition – win a $100 gift card!' },
-    { type: 'workshop', time: "3:00 - 4:00 PM", platform: 'zoom', title: 'Workshop 2', description: 'TBA' },
+    { type: 'workshop', time: "3:00 - 4:00 PM", platform: 'zoom', title: 'Workshop 2', description: 'Encode Justice Canada | Ethical AI' },
     { type: 'activity', time: "4:00 - 5:00 PM", platform: 'discord', title: 'Activity 2', description: 'Chess Tournament – win Chess.com Gold or $35 gift cards!' },
     { type: 'workshop', time: "5:00 - 6:00 PM", platform: 'zoom', title: 'Workshop 3', description: 'Sama | Creating Training Data for Computer Vision and Machine Learning' },
     { type: 'activity', time: "9:00 - 10:00 PM", platform: 'discord', title: 'Activity 3', description: 'Party games (Gartic, skribbl.io, amogus, etc.)' },
