@@ -60,10 +60,6 @@ const renderDay = (events) => {
 
 export default function Schedule() {
     return <div className="top-margin-thicc">
-        <h2>Schedule</h2>
-        <small className='text-center'>
-            Links to events will be available to participants through the Discord.
-        </small>
         <h3 className={styles['day-title']}>Saturday, October 2nd</h3>
         {renderDay(saturday)}
         <h3 className={styles['day-title']}>Sunday, October 3rd</h3>
