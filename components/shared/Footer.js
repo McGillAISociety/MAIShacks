@@ -21,7 +21,6 @@ const socials = [
     { icon: <Medium {... iconProps} />, link: 'https://medium.com/mcgill-artificial-intelligence-review'}
 ]
 
-// TODO: code of conduct
 export default function Footer() {
     return <footer className={styles['footer']}>
         <div className="flex">

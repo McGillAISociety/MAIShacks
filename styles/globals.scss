@@ -42,6 +42,10 @@
   margin-top: 20px;
 }
 
+.top-margin-thicc {
+  margin-top: 40px;
+}
+
 h1 {
   font-size: 40px;
   margin-bottom: 15px;
@@ -51,6 +55,7 @@ h1 {
 h2 {
   margin-bottom: 10px;
   font-size: 30px;
+  text-align: center;
 }
 
 p {
@@ -117,4 +122,9 @@ a {
   50% {
     bottom: 15px;
   }
+}
+
+.text-center {
+  display: block;
+  text-align: center;
 }
