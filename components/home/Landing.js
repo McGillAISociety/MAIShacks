@@ -45,12 +45,12 @@ export default function Landing() {
         </div>
         <div className={`flex-container ${styles['bottom-content-container']}`}>
             <div className={styles['bottom-content']}>
-                <h2>October 2nd to 3rd, 2021</h2>
+                <h2>October 1st to 2nd, 2022</h2>
                 <div className={`flex-container ${styles['bottom-content__countdowns']}`}>
                     <div>
                         <p>Hackathon starts in:</p>
                         <Countdown
-                            date={Date.parse("2021-10-02T09:00:00+0000")}
+                            date={Date.parse("2022-10-01T09:00:00+0000")}
                             renderer={({ days, hours, minutes, seconds }) => (
                                 <span className={styles['bottom-content__countdown']}>
                                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
@@ -59,6 +59,7 @@ export default function Landing() {
                             )}
                         />
                     </div>
+                    
                     {/* <div>
                         <p>Schedule, challenges, and prizes drop in:</p>
                         <Countdown
@@ -72,6 +73,9 @@ export default function Landing() {
                         />
                     </div> */}
                 </div>
+                <h2>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdpfc0BsovjXjyJSvGsZSCegVAqTwgfS33ZTsw20BYwCsTcZQ/viewform'>Pre-registration is open!</a>
+                </h2>
             </div>
         </div>
     </>;

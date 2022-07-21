@@ -6,23 +6,25 @@ import { GrGamepad } from 'react-icons/gr';
 import styles from '../../styles/Schedule.module.scss';
 
 const saturday = [
-    { type: 'general', time: "9:00 - 10:00 AM", title: 'Registration/Livestream starts', description: '' },
-    { type: 'general', time: "10:00 - 10:45 AM", platform: 'zoom', title: 'Opening ceremony', description: '' },
-    { type: 'general', time: "10:45 - 11:15 AM", title: 'Team matching', description: '' },
-    { type: 'hacking', time: "11:00 AM", title: 'Hacking starts!', description: '' },
-    { type: 'workshop', time: "11:00 - 11:30 AM", platform: 'zoom', title: 'Workshop 1', description: 'MAIS Hacks [0] | A simple beginner\'s guide to starting an ML/AI project' },
-    { type: 'activity', time: "2:00 - 3:00 PM", platform: 'discord', title: 'Activity 1', description: 'Bob Ross MS Paint competition – win a $100 gift card!' },
-    { type: 'workshop', time: "3:00 - 4:00 PM", platform: 'zoom', title: 'Workshop 2', description: 'Encode Justice Canada | AI and Society' },
-    { type: 'activity', time: "4:00 - 5:00 PM", platform: 'discord', title: 'Activity 2', description: 'Chess Tournament – win Chess.com Gold or $35 gift cards!' },
-    { type: 'workshop', time: "5:00 - 6:00 PM", platform: 'zoom', title: 'Workshop 3', description: 'Sama | Creating Training Data for Computer Vision and Machine Learning' },
-    { type: 'activity', time: "9:00 - 10:00 PM", platform: 'discord', title: 'Activity 3', description: 'Party games (Gartic, skribbl.io, amogus, etc.)' },
+    { type: 'general', time: "9:30 AM", title: 'Doors Open / Registration', description: '' },
+    { type: 'general', time: "10:30 - 11:30 AM", title: 'Opening ceremony', description: '' },
+    { type: 'general', time: "11:30 AM - 12:00 PM", title: 'Team matching + Devpost Registration', description: '' },
+    { type: 'hacking', time: "12:00 PM", title: 'Hacking starts!', description: '' },
+    { type: 'workshop', time: "12:00 PM", title: 'Workshop 1', description: '' },
+    { type: 'activity', time: "2:00 PM", title: 'Activity 1', description: '' },
+    { type: 'workshop', time: "3:00 PM", title: 'Workshop 2', description: '' },
+    { type: 'activity', time: "4:00 PM", title: 'Activity 2', description: '' },
+    { type: 'workshop', time: "5:00 PM", title: 'Workshop 3', description: '' },
+    { type: 'general', time: "6:30 PM", title: 'Dinner', description: '' },
+    { type: 'activity', time: "8:00 PM", title: 'Activity 3', description: '' },
 ]
 const sunday = [
-    { type: 'activity', time: "12:00 - 2:00 AM", platform: 'discord', title: 'Activity 4', description: 'Chill activities (Aggie.io, movie watch party, Soundtrap, etc.)' },
-    { type: 'activity', time: "11:00 - 11:30 AM", platform: 'discord', title: 'Activity 5', description: 'Typeracer competition – win a Keychron Mechanical Keyboard!' },
-    { type: 'hacking', time: "11:00 AM", title: 'Hacking ends!', description: '' },
-    { type: 'hacking', time: "12:00 - 2:00 PM", platform: 'discord', title: 'Judging', description: '' },
-    { type: 'general', time: "2:30 - 3:15 PM", platform: 'zoom', title: 'Closing ceremony', description: '' },
+    { type: 'general', time: "8:00 - 10:00 AM", title: 'Breakfast', description: '' },
+    { type: 'hacking', time: "12:00 PM", title: 'Hacking ends!', description: '' },
+    { type: 'general', time: "12:00 PM", title: 'Lunch', description: '' },
+    { type: 'general', time: "12:00 - 2:00 PM", title: 'Judging', description: '' },
+    { type: 'activity', time: "1:00 PM", title: 'Activity 4', description: '' },
+    { type: 'general', time: "2:00 PM", title: 'Closing ceremonies', description: '' },
 ]
 
 const typeIconProps = { size: 40, className: styles['event-container__type-icon'] };
@@ -60,9 +62,9 @@ const renderDay = (events) => {
 
 export default function Schedule() {
     return <div className="top-margin-thicc">
-        <h3 className={styles['day-title']}>Saturday, October 2nd</h3>
+        <h3 className={styles['day-title']}>Saturday, October 1st</h3>
         {renderDay(saturday)}
-        <h3 className={styles['day-title']}>Sunday, October 3rd</h3>
+        <h3 className={styles['day-title']}>Sunday, October 2nd</h3>
         {renderDay(sunday)}
     </div>;
 }
