@@ -74,7 +74,7 @@ export default function Landing() {
                     </div> */}
                 </div>
                 <h2>
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdpfc0BsovjXjyJSvGsZSCegVAqTwgfS33ZTsw20BYwCsTcZQ/viewform' target='_blank'>Pre-registration is open!</a>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdpfc0BsovjXjyJSvGsZSCegVAqTwgfS33ZTsw20BYwCsTcZQ/viewform'>Pre-registration is open!</a>
                 </h2>
             </div>
         </div>
