@@ -39,6 +39,7 @@ export default function Landing() {
     }}
     href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=red"
     target="_blank"
+    rel="noreferrer"
   >
     <img
       src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-red.svg"
