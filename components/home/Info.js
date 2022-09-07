@@ -12,6 +12,16 @@ export default function Info() {
                         <p>
                         Regardless of whether you’re an AI novice or veteran, everyone is welcome to join. Just bring a desire to learn about how AI can be used to overcome societal problems and boost competitiveness – and we’ll provide the mentors, computing credits, and swag.
                         </p>
+                        <p>
+                            This year, we are excited to announce three tracks this year:
+                        </p>
+                        <p className={`${styles['list']}`}>
+                            <ol>
+                                <li><strong>General Track</strong> - Your typical hackathon</li>
+                                <li><strong>Beginner Track</strong> - New to machine learning? No worries!</li>
+                                <li><strong>Policy Track</strong> - Interested in the non-technical side of AI?</li>
+                            </ol>
+                        </p>
                     </div>
                 <img src="/images/connecty_boi.png" alt="connecty boi"
                     className={`${styles['connecty-boi']} mobile-hide`}
