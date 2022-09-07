@@ -34,9 +34,9 @@ export default function Info() {
                 <p>Build an awesome AI project with your teammates - and along the way, gain invaluable experience, opportunities, and exposure to the field of AI!</p>
                 <p>And if that&apos;s not motivation enough, we have over $5000 in prizes to be won.</p>
                 <p>Just last year, our winners consisted of innovative projects such as a&nbsp;
-                    <a href="https://devpost.com/software/plant-disease-identifier" target="_blank" rel="noreferrer">plant disease identifier</a>,&nbsp;
-                    <a href="https://devpost.com/software/mbti-personality-classifier-2eho6w" target="_blank" rel="noreferrer">personality classifier</a>,&nbsp;and&nbsp;
-                    <a href="https://devpost.com/software/machine-translation-for-low-resource-languages" target="_blank" rel="noreferrer">indigenous language translator</a>.</p>
+                    <a href="https://devpost.com/software/polkadots" target="_blank" rel="noreferrer">bacterial colony counter</a>,&nbsp;
+                    <a href="https://devpost.com/software/sportify-5rytap" target="_blank" rel="noreferrer">workout tracker</a>,&nbsp;and&nbsp;
+                    <a href="https://devpost.com/software/livesigns" target="_blank" rel="noreferrer">sign language translator</a>.</p>
             </div>
         </div>
     </div>
