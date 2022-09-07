@@ -12,6 +12,16 @@ export default function Info() {
                         <p>
                         Regardless of whether you’re an AI novice or veteran, everyone is welcome to join. Just bring a desire to learn about how AI can be used to overcome societal problems and boost competitiveness – and we’ll provide the mentors, computing credits, and swag.
                         </p>
+                        <p>
+                            This year, we are excited to announce three tracks this year:
+                        </p>
+                        <p className={`${styles['list']}`}>
+                            <ol>
+                                <li><strong>General Track</strong> - Your typical hackathon</li>
+                                <li><strong>Beginner Track</strong> - New to machine learning? No worries!</li>
+                                <li><strong>Policy Track</strong> - Interested in the non-technical side of AI?</li>
+                            </ol>
+                        </p>
                     </div>
                 <img src="/images/connecty_boi.png" alt="connecty boi"
                     className={`${styles['connecty-boi']} mobile-hide`}
@@ -34,9 +44,9 @@ export default function Info() {
                 <p>Build an awesome AI project with your teammates - and along the way, gain invaluable experience, opportunities, and exposure to the field of AI!</p>
                 <p>And if that&apos;s not motivation enough, we have over $5000 in prizes to be won.</p>
                 <p>Just last year, our winners consisted of innovative projects such as a&nbsp;
-                    <a href="https://devpost.com/software/plant-disease-identifier" target="_blank" rel="noreferrer">plant disease identifier</a>,&nbsp;
-                    <a href="https://devpost.com/software/mbti-personality-classifier-2eho6w" target="_blank" rel="noreferrer">personality classifier</a>,&nbsp;and&nbsp;
-                    <a href="https://devpost.com/software/machine-translation-for-low-resource-languages" target="_blank" rel="noreferrer">indigenous language translator</a>.</p>
+                    <a href="https://devpost.com/software/polkadots" target="_blank" rel="noreferrer">bacterial colony counter</a>,&nbsp;
+                    <a href="https://devpost.com/software/sportify-5rytap" target="_blank" rel="noreferrer">workout tracker</a>,&nbsp;and&nbsp;
+                    <a href="https://devpost.com/software/livesigns" target="_blank" rel="noreferrer">sign language translator</a>.</p>
             </div>
         </div>
     </div>
