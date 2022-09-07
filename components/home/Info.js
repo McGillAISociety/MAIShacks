@@ -6,7 +6,7 @@ export default function Info() {
         <div className="flex-container">
             <div>
                 <div className={'text-container'}>
-                        <h1>Canada&apos;s Largest AI Hackathon Is Back.</h1>
+                        <h1>Canada&apos;s Largest AI Hackathon Is Back In-Person.</h1>
                         <p>Innovation lies at the heart of MAIS Hacks, with past winners building solutions for topics ranging between music composition, plant pathology, and security patrols.
                         </p>
                         <p>
@@ -22,7 +22,7 @@ export default function Info() {
             <div className={`card-border ${styles['bubble']} ${styles['bubble--left']}`}>
                 <h2>Social Networking and Team Making</h2>
                 <p>Don&apos;t worry if you apply alone, there will be ample opportunities to connect with your peers and match yourself with the perfect team!</p>
-                <p>Even in an online format, MAIS Hacks provides many social activities and networking opportunities to help you make lasting connections.</p>
+                <p>MAIS Hacks provides many social activities and networking opportunities to help you make lasting connections.</p>
             </div>
             <div className={`card-border ${styles['bubble']} ${styles['bubble--center']}`}>
                 <h2>Workshops and Activities</h2>

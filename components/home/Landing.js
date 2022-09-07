@@ -15,13 +15,17 @@ export default function Landing() {
         <p>
             Join Canada&apos;s 150+ brightest minds for a 24 hour AI hackathon!
         </p>
-        <Link passHref href='/live'>
+        <Button expand onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSe0DH0vjR8_MF5Y938kuMyEQuaQtuqF_21DNaN-BfQqMpcADQ/viewform')}>
+            Apply Now!
+        </Button>
+        {/* Replace the button with this after the applications close and the new schedule is ready */}
+        {/* <Link passHref href='/live'>
             <div>
                 <Button expand onClick={() => {}}>
                     Go to live site
                 </Button>
             </div>
-        </Link>
+        </Link> */}
     </div>;
 
     return <>        
@@ -96,9 +100,6 @@ export default function Landing() {
                         />
                     </div> */}
                 </div>
-                <h2>
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdpfc0BsovjXjyJSvGsZSCegVAqTwgfS33ZTsw20BYwCsTcZQ/viewform'>Pre-registration is open!</a>
-                </h2>
             </div>
         </div>
     </>;

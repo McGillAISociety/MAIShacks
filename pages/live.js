@@ -6,7 +6,7 @@ import LiveLanding from '../components/live/LiveLanding';
 
 export default function Live() {
     return <>
-        <MetaTags title="LIVE | MAIS Hacks 2021" description="Canada's largest AI hackathon"
+        <MetaTags title="LIVE | MAIS Hacks 2022" description="Canada's largest AI hackathon"
             imagePath="/meta/banner.png" route="/live" />
         <LiveLanding />
         <Resources />
