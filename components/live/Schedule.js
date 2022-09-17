@@ -10,21 +10,22 @@ const saturday = [
     { type: 'general', time: "10:30 - 11:30 AM", title: 'Opening ceremony', description: '' },
     { type: 'general', time: "11:30 AM - 12:00 PM", title: 'Team matching + Devpost Registration', description: '' },
     { type: 'hacking', time: "12:00 PM", title: 'Hacking starts!', description: '' },
-    { type: 'workshop', time: "12:00 PM", title: 'Workshop 1', description: '' },
-    { type: 'activity', time: "2:00 PM", title: 'Activity 1', description: '' },
-    { type: 'workshop', time: "3:00 PM", title: 'Workshop 2', description: '' },
-    { type: 'activity', time: "4:00 PM", title: 'Activity 2', description: '' },
-    { type: 'workshop', time: "5:00 PM", title: 'Workshop 3', description: '' },
+    { type: 'general', time: "12:00 PM", title: 'Lunch', description: '' },
+    { type: 'workshop', time: "12:30 PM - 1:30 PM", title: 'Workshop 1', description: '' },
+    { type: 'activity', time: "2:30 PM - 3:00 PM", title: 'Activity 1', description: '' },
+    { type: 'workshop', time: "3:00 PM - 4:00 PM", title: 'Workshop 2', description: '' },
+    { type: 'activity', time: "4:00 PM - 4:30 PM", title: 'Activity 2', description: '' },
+    { type: 'workshop', time: "5:00 PM - 6:00 PM", title: 'Workshop 3', description: '' },
     { type: 'general', time: "6:30 PM", title: 'Dinner', description: '' },
-    { type: 'activity', time: "8:00 PM", title: 'Activity 3', description: '' },
+    { type: 'activity', time: "8:00 PM - 8:30 PM", title: 'Activity 3', description: '' },
 ]
 const sunday = [
-    { type: 'general', time: "8:00 - 10:00 AM", title: 'Breakfast', description: '' },
+    { type: 'general', time: "8:30 - 10:30 AM", title: 'Breakfast', description: '' },
     { type: 'hacking', time: "12:00 PM", title: 'Hacking ends!', description: '' },
     { type: 'general', time: "12:00 PM", title: 'Lunch', description: '' },
     { type: 'general', time: "12:00 - 2:00 PM", title: 'Judging', description: '' },
-    { type: 'activity', time: "1:00 PM", title: 'Activity 4', description: '' },
-    { type: 'general', time: "2:00 PM", title: 'Closing ceremonies', description: '' },
+    { type: 'activity', time: "1:00 PM - 1:30 PM", title: 'Activity 4', description: '' },
+    { type: 'general', time: "2:00 PM - 2:30 PM", title: 'Closing ceremonies', description: '' },
 ]
 
 const typeIconProps = { size: 40, className: styles['event-container__type-icon'] };
