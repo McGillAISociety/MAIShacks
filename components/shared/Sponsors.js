@@ -6,7 +6,8 @@ const sponsors = [
     // { name: 'intact', url: 'https://careers.intactfc.com/intactinsurance/ca/en', imgWidth: 300 },
     // { name: 'cae', url: 'https://www.cae.com/careers/', imgWidth: 200 },
     // { name: 'squarepoint', url: 'https://www.squarepoint-capital.com/', imgWidth: 150 }
-    { name: 'desjardins', url: 'https://www.desjardins.com/qc/en/careers.html', imgWidth: 400 }
+    { name: 'desjardins', url: 'https://www.desjardins.com/qc/en/careers.html', imgWidth: 400 },
+    { name: 'ISAAClogo', url: 'https://www.isaacinstruments.com/careers/', imgWidth: 300 }
 ]
 
 export default function Sponsors({ justImages = false }) {
