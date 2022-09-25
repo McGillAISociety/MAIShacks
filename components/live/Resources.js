@@ -9,7 +9,7 @@ import styles from '../../styles/Resources.module.scss';
 const iconProps = { size: 30 };
 
 const resources = [
-    { icon: <Discord {...iconProps} />, text: "Discord", link: "" },
+    { icon: <Discord {...iconProps} />, text: "Discord", link: "https://discord.gg/eAkXjqkpet" },
     { icon: <Devpost {...iconProps} />, text: "Devpost", link: "" }
 ]
 
