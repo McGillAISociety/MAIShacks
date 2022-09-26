@@ -18,6 +18,10 @@ export default function Resources() {
         <small className='text-center'>
             Join the Discord and Devpost <i>only if you have been accepted to MAIS Hacks!</i> You will be kicked otherwise.
         </small>
+        <br></br>
+        <small className='text-center'>
+            Have some feedback? Submit it anonymously <a href="https://docs.google.com/forms/d/e/1FAIpQLSefYnGQjK0PG6opR2-oZ6sDXYp3crOE_Y6TkTKCqNWGoXNrog/viewform" target="_blank" rel="noreferrer">here.</a>
+        </small>
         <div className="flex-container">
             {resources.map(((resource, index) =>
                 <div key={index} className={styles['button-wrapper']}>
