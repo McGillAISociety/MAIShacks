@@ -7,15 +7,15 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import styles from '../../styles/Schedule.module.scss';
 
 const beginner_saturday = [
-    { type: 'general', time: "9:30 AM - 10:30 AM", title: 'Doors Open / Registration', description: '' },
-    { type: 'general', time: "10:30 AM - 11:30 AM", title: 'Opening ceremony', description: '' },
+    { type: 'general', time: "9:30 AM - 10:30 AM", title: 'Doors Open / Registration', description: 'Mezzanine' },
+    { type: 'general', time: "10:30 AM - 11:30 AM", title: 'Opening ceremony', description: 'ENGTR0100' },
     { type: 'general', time: "11:30 AM - 12:00 PM", title: 'Team matching + Devpost Registration', description: '' },
     { type: 'hacking', time: "12:00 PM", title: 'Hacking starts!', description: '' },
     { type: 'general', time: "12:00 PM - 12:30 PM", title: 'Lunch', description: 'Mezzanine' },
     { type: 'workshop', time: "12:30 PM - 12:45 PM", title: 'Workshop - AI/ML Overview', description: 'ENGTR0100' },
     { type: 'workshop', time: "12:45 PM - 1:00 PM", title: 'Workshop - Hackathon Tools, Classic ML', description: 'ENGTR0100' },
     { type: 'workshop', time: "1:00 PM - 1:15 PM", title: 'Workshop - Classic ML', description: 'ENGTR0100' },
-    { type: 'activity', time: "2:30 PM - 3:00 PM", title: 'Networking Happy Hour', description: '' },
+    { type: 'activity', time: "2:30 PM - 3:00 PM", title: 'Networking Happy Hour', description: 'Mezzanine' },
     { type: 'workshop', time: "2:30 PM - 2:45 PM", title: 'Workshop - Deep Learning', description: 'ENGTR0100' },
     { type: 'activity', time: "4:00 PM - 4:30 PM", title: 'Activity - MLH', description: 'ENGTR2120' },
     { type: 'workshop', time: "5:30 PM - 6:30 PM", title: 'Workshop - Ethics in AI by EJC', description: 'ENGTR0100' },
@@ -23,45 +23,45 @@ const beginner_saturday = [
     { type: 'workshop', time: "5:30 PM - 5:45 PM", title: 'Workshop - Backend', description: 'ENGTR0100' },
     { type: 'general', time: "6:30 PM - 7:00 PM", title: 'Dinner', description: 'Mezzanine' },
     { type: 'workshop', time: "7:00 PM - 7:15 PM", title: 'Workshop - Frontend', description: 'ENGTR0100' },
-    { type: 'activity', time: "8:00 PM - 8:30 PM", title: 'Activity - Skribbl.io and Snacks', description: '' },
+    { type: 'activity', time: "8:00 PM - 8:30 PM", title: 'Activity - Skribbl.io and Snacks', description: 'ENGTR2120' },
 ]
 const beginner_sunday = [
     { type: 'general', time: "8:30 - 10:30 AM", title: 'Breakfast', description: 'Mezzanine' },
     { type: 'hacking', time: "12:00 PM", title: 'Hacking ends!', description: '' },
     { type: 'general', time: "12:00 PM", title: 'Lunch', description: 'Mezzanine' },
-    { type: 'general', time: "12:00 - 2:00 PM", title: 'Judging', description: '' },
-    { type: 'activity', time: "1:00 PM - 1:30 PM", title: "Activity - You're My Type: Typing Contest", description: 'ENGTR2120' },
+    { type: 'general', time: "12:00 - 2:00 PM", title: 'Judging', description: 'ENGTR2120' },
+    { type: 'activity', time: "1:00 PM - 1:30 PM", title: "Activity - You're My Type: Typing Contest", description: 'ENGTR0100' },
     { type: 'general', time: "2:00 PM - 2:30 PM", title: 'Closing ceremonies', description: '' },
 ]
 
 const general_saturday = [
-    { type: 'general', time: "9:30 AM - 10:30 AM", title: 'Doors Open / Registration', description: '' },
-    { type: 'general', time: "10:30 AM - 11:30 AM", title: 'Opening ceremony', description: '' },
+    { type: 'general', time: "9:30 AM - 10:30 AM", title: 'Doors Open / Registration', description: 'Mezzanine' },
+    { type: 'general', time: "10:30 AM - 11:30 AM", title: 'Opening ceremony', description: 'ENGTR0100' },
     { type: 'general', time: "11:30 AM - 12:00 PM", title: 'Team matching + Devpost Registration', description: '' },
     { type: 'hacking', time: "12:00 PM", title: 'Hacking starts!', description: '' },
     { type: 'general', time: "12:00 PM - 12:30 PM", title: 'Lunch', description: 'Mezzanine' },
     { type: 'workshop', time: "12:30 PM - 1:30 PM", title: 'Workshop - Intro to ML', description: 'ENGTR2110' },
-    { type: 'workshop', time: "1:30 PM - 2:30 PM", title: 'Networking Happy Hour', description: '' },
+    { type: 'workshop', time: "1:30 PM - 2:30 PM", title: 'Networking Happy Hour', description: 'Mezzanine' },
     { type: 'workshop', time: "2:30 PM - 3:30 PM", title: 'Workshop - stability.ai', description: 'ENGTR2110' },
     { type: 'activity', time: "3:30 PM - 4:00 PM", title: 'Activity - MLH', description: 'ENGTR2120' },
     { type: 'workshop', time: "4:00 PM - 5:00 PM", title: 'Workshop - Ethics in AI by EJC', description: 'ENGTR2110' },
     { type: 'activity', time: "5:00 PM - 5:30 PM", title: 'Activity - Knights of the Square Table: Chess Tournament', description: 'ENGTR2120' },
-    { type: 'workshop', time: "5:30 PM - 6:30 PM", title: 'Workshop', description: '' },
+    { type: 'workshop', time: "5:30 PM - 6:30 PM", title: 'Workshop', description: 'ENGTR2100' },
     { type: 'general', time: "6:30 PM - 7:00 PM", title: 'Dinner', description: 'Mezzanine' },
-    { type: 'activity', time: "8:00 PM - 8:30 PM", title: 'Activity - Skribbl.io and Snacks', description: '' },
+    { type: 'activity', time: "8:00 PM - 8:30 PM", title: 'Activity - Skribbl.io and Snacks', description: 'ENGTR2120' },
 ]
 const general_sunday = [
     { type: 'general', time: "8:30 - 10:30 AM", title: 'Breakfast', description: 'Mezzanine' },
     { type: 'hacking', time: "12:00 PM", title: 'Hacking ends!', description: '' },
     { type: 'general', time: "12:00 PM", title: 'Lunch', description: 'Mezzanine' },
-    { type: 'general', time: "12:00 - 2:00 PM", title: 'Judging', description: '' },
-    { type: 'activity', time: "1:00 PM - 1:30 PM", title: "Activity - You're My Type: Typing Contest", description: 'ENGTR2120' },
-    { type: 'general', time: "2:00 PM - 2:30 PM", title: 'Closing ceremonies', description: '' },
+    { type: 'general', time: "12:00 - 2:00 PM", title: 'Judging', description: 'ENGTR2120' },
+    { type: 'activity', time: "1:00 PM - 1:30 PM", title: "Activity - You're My Type: Typing Contest", description: 'ENGTR0100' },
+    { type: 'general', time: "2:00 PM - 2:30 PM", title: 'Closing ceremonies', description: 'ENGTR0100' },
 ]
 
 const policy_saturday = [
-    { type: 'general', time: "9:30 AM - 10:30 AM", title: 'Doors Open / Registration', description: '' },
-    { type: 'general', time: "10:30 AM - 11:30 AM", title: 'Opening ceremony', description: '' },
+    { type: 'general', time: "9:30 AM - 10:30 AM", title: 'Doors Open / Registration', description: 'Mezzanine' },
+    { type: 'general', time: "10:30 AM - 11:30 AM", title: 'Opening ceremony', description: 'ENGTR0100' },
     { type: 'hacking', time: "12:00 PM", title: 'Hacking starts!', description: '' },
     { type: 'general', time: "12:00 PM - 12:30 PM", title: 'Lunch', description: 'Mezzanine' },
     { type: 'workshop', time: "12:15 PM - 12:40 PM", title: 'Workshop - Basics of AI', description: 'ENGTR2100' },
@@ -72,15 +72,15 @@ const policy_saturday = [
     { type: 'activity', time: "3:30 PM - 4:00 PM", title: 'Activity - MLH', description: 'ENGTR2120' },
     { type: 'activity', time: "5:00 PM - 5:30 PM", title: 'Activity - Knights of the Square Table: Chess Tournament', description: 'ENGTR2120' },
     { type: 'general', time: "6:30 PM - 7:00 PM", title: 'Dinner', description: 'Mezzanine' },
-    { type: 'activity', time: "8:00 PM - 8:30 PM", title: 'Activity - Skribbl.io and Snacks', description: '' },
+    { type: 'activity', time: "8:00 PM - 8:30 PM", title: 'Activity - Skribbl.io and Snacks', description: 'ENGTR2120' },
 ]
 const policy_sunday = [
     { type: 'general', time: "8:30 - 10:30 AM", title: 'Breakfast', description: 'Mezzanine' },
     { type: 'hacking', time: "12:00 PM", title: 'Hacking ends!', description: '' },
     { type: 'general', time: "12:00 PM", title: 'Lunch', description: 'Mezzanine' },
-    { type: 'general', time: "12:00 - 2:00 PM", title: 'Presentations', description: '' },
-    { type: 'activity', time: "1:00 PM - 1:30 PM", title: "Activity - You're My Type: Typing Contest", description: 'ENGTR2120' },
-    { type: 'general', time: "2:00 PM - 2:30 PM", title: 'Closing ceremonies', description: '' },
+    { type: 'general', time: "12:00 - 2:00 PM", title: 'Presentations', description: 'ENGTR2100' },
+    { type: 'activity', time: "1:00 PM - 1:30 PM", title: "Activity - You're My Type: Typing Contest", description: 'ENGTR0100' },
+    { type: 'general', time: "2:00 PM - 2:30 PM", title: 'Closing ceremonies', description: 'ENGTR0100' },
 ]
 
 const typeIconProps = { size: 40, className: styles['event-container__type-icon'] };
