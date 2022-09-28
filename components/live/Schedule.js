@@ -146,10 +146,4 @@ export default function Schedule() {
             </TabPanel>
             </div>
         </Tabs>);
-    // return <div className="top-margin-thicc">
-    //     <h3 className={styles['day-title']}>Saturday, October 1st</h3>
-    //     {renderDay(saturday)}
-    //     <h3 className={styles['day-title']}>Sunday, October 2nd</h3>
-    //     {renderDay(sunday)}
-    // </div>;
 }
