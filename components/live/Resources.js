@@ -10,7 +10,7 @@ const iconProps = { size: 30 };
 
 const resources = [
     { icon: <Discord {...iconProps} />, text: "Discord", link: "https://discord.gg/eAkXjqkpet" },
-    { icon: <Devpost {...iconProps} />, text: "Devpost", link: "" }
+    { icon: <Devpost {...iconProps} />, text: "Devpost", link: "https://maishacks-2022.devpost.com/" }
 ]
 
 export default function Resources() {
