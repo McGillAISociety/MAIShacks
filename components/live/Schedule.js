@@ -31,7 +31,7 @@ const beginner_sunday = [
     { type: 'general', time: "12:00 PM", title: 'Lunch', description: 'Mezzanine' },
     { type: 'general', time: "12:00 - 2:00 PM", title: 'Judging', description: 'Mezzanine' },
     { type: 'activity', time: "1:00 PM - 1:30 PM", title: "Activity - You're My Type: Typing Contest", description: 'ENGTR0100' },
-    { type: 'general', time: "2:00 PM - 2:30 PM", title: 'Closing ceremonies', description: '' },
+    { type: 'general', time: "2:00 PM - 2:30 PM", title: 'Closing ceremonies', description: 'ENGTR0100' },
 ]
 
 const general_saturday = [
