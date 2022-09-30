@@ -42,7 +42,7 @@ const general_saturday = [
     { type: 'general', time: "12:00 PM - 12:30 PM", title: 'Lunch', description: 'Mezzanine' },
     { type: 'workshop', time: "12:30 PM - 1:30 PM", title: 'Workshop - Intro to ML', description: 'ENGTR2110' },
     { type: 'workshop', time: "1:30 PM - 2:30 PM", title: 'Networking Happy Hour', description: 'Mezzanine' },
-    { type: 'workshop', time: "2:30 PM - 3:30 PM", title: 'Workshop - stability.ai', description: 'ENGTR2110' },
+    { type: 'workshop', time: "2:30 PM - 3:30 PM", title: 'Workshop - Image Generation with Stable Diffusio by stability.ai', description: 'ENGTR2110' },
     { type: 'activity', time: "3:30 PM - 4:00 PM", title: 'Activity - Snyk Capture the Flag (MLH)', description: 'ENGTR2120' },
     { type: 'workshop', time: "4:00 PM - 5:00 PM", title: 'Workshop - AI and You: Social Impact, Ethics, and Making the World a Better Place', description: 'ENGTR2110' },
     { type: 'activity', time: "5:00 PM - 5:30 PM", title: 'Activity - Knights of the Square Table: Chess Tournament', description: 'ENGTR2120' },
