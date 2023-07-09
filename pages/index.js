@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <MetaTags
-        title="MAIS Hacks 2022"
+        title="MAIS Hacks 2023"
         description="Canada's largest AI hackathon"
         imagePath="/meta/banner.png"
         route="/"
