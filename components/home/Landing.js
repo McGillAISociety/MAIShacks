@@ -86,7 +86,7 @@ export default function Landing() {
             <div>
               <p>Hackathon starts in:</p>
               <Countdown
-                date={Date.parse("2023-09-01T09:00:00+0000")}
+                date={Date.parse("2023-09-30T09:00:00+0000")}
                 renderer={({ days, hours, minutes, seconds }) => (
                   <span className={styles["bottom-content__countdown"]}>
                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
