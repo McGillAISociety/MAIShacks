@@ -6,7 +6,9 @@ export default function Info() {
       <div className="flex-container">
         <div>
           <div className={"text-container"}>
-            <h1>Canada&apos;s Largest AI Hackathon Is Back In-Person.</h1>
+            <h1>
+              One of Canada&apos;s Largest AI Hackathon Is Back In-Person.
+            </h1>
             <p>
               Innovation lies at the heart of MAIS Hacks, with past winners
               building solutions for topics ranging between music composition,
