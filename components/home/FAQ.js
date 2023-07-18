@@ -20,7 +20,7 @@ const FAQs = [
   {
     question: "Only one track this year?",
     answer:
-      "Yes, this year we offer only one track, but don’t worry that does mean you will have access to less activities. You will be able to chose whichever talk or social activity you want to participate in!",
+      "Yes, this year we offer only one track, but don’t worry that does not mean you will have access to less activities. You will be able to chose whichever talk or social activity you want to participate in!",
   },
   {
     question: "Does it cost anything to take part?",
