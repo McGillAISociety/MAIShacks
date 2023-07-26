@@ -75,14 +75,13 @@ export default function Info() {
             of AI!
           </p>
           <p>
-            And if that&apos;s not motivation enough, we have over $5000 in
+            And if that&apos;s not motivation enough, we have over $3000 in
             prizes to be won.
           </p>
           <p>
             Just last year, our winners consisted of innovative projects such as
-            aJust last year, our winners consisted of innovative projects such
-            as a helper to make the best CV, generator of creative image and
-            audio emotion detector.
+            a helper to make the best CV, generator of creative image and audio
+            emotion detector.
           </p>
         </div>
       </div>

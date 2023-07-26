@@ -30,29 +30,6 @@ export default function Landing() {
 
   return (
     <>
-      <a
-        id="mlh-trust-badge"
-        style={{
-          display: "block",
-          maxWidth: 100,
-          minWidth: 60,
-          position: "fixed",
-          right: 50,
-          top: 0,
-          width: "10%",
-          zIndex: 10000,
-        }}
-        href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=red"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-red.svg"
-          alt="Major League Hacking 2023 Hackathon Season"
-          style={{ width: "100%" }}
-        />
-      </a>
-
       <div className={styles["background"]}></div>
       <MainSiteLink />
       <div className={styles["top-content"]}>

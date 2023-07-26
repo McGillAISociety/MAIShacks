@@ -36,16 +36,10 @@ const FAQs = [
     answer: (
       <div>
         Please be respectful and mindful of your environment and of all the
-        other students participating. Also, be understanding of our the
-        executive team of MAIS, we are trying our best to give you a nice
-        hackathon, but problems may always occur. If there is anything bothering
-        you please contact one of the exec.
-        {/*<br></br>
-        <br></br>
-        For more details, please refer to{" "}
-        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
-          the MLH code of conduct.
-    </a>*/}
+        other students participating. Also, be understanding of our executive
+        team, we are trying our best to give you a nice hackathon, but problems
+        may always occur. If there is anything bothering you, please contact one
+        of the execs.
       </div>
     ),
   },
