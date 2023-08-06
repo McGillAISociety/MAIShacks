@@ -32,14 +32,26 @@ const FAQs = [
       "We're looking for creative and enthusiastic people with the skills to contribute to cool projects. Since this is an AI themed hackathon, we prefer applicants with past AI experience and projects - however, don't let this deter you from applying! Show us what makes you special and let your enthusiasm shine!",
   },
   {
-    question: "Is there a Code of Conduct?",
+    question: "Harassment and Incident Reporting Policy",
     answer: (
       <div>
-        Please be respectful and mindful of your environment and of all the
-        other students participating. Also, be understanding of our executive
-        team, we are trying our best to give you a nice hackathon, but problems
-        may always occur. If there is anything bothering you, please contact one
-        of the execs.
+        MAIS Hacks and McGill Artificial Intelligence Society does not tolerate
+        harassment, bullying, or discrimination in any form. In the case of an
+        incident, participants can report it confidentially to any staff member,
+        who will deal with the situation appropriately and/or report the
+        incident to an organizer. Staff will be present at the registration
+        booth in the mezzanine and monitoring the McGill AI Society account on
+        Discord for all active hackathon hours.
+        <br></br>
+        <br></br>
+        In the case of an allegation, accused parties will be removed from the
+        Discord and venue, and will no longer be allowed to participate in MAIS
+        Hacks. The rest of the team who are not involved in the allegation will
+        be allowed to continue the Hackathon. If relevant, prizes will be
+        withheld from the accused party until a judgment is made by Engineering
+        Undergraduate Society and/or McGill University. Further action will be
+        taken at the discretion of McGill Artificial Intelligence Society,
+        Engineering Undergraduate Society, and/or McGill University.
       </div>
     ),
   },

@@ -70,18 +70,13 @@ export default function Info() {
         >
           <h2>Projects</h2>
           <p>
-            Build an awesome AI project with your teammates - and along the way,
-            gain invaluable experience, opportunities, and exposure to the field
-            of AI!
+            Build an AI project with your teammates, and along the way, gain
+            invaluable experience, opportunities, and exposure to the field of
+            AI. We have over $3000 in prizes to be won!
           </p>
           <p>
-            And if that&apos;s not motivation enough, we have over $3000 in
-            prizes to be won.
-          </p>
-          <p>
-            Just last year, our winners consisted of innovative projects such as
-            a helper to make the best CV, generator of creative image and audio
-            emotion detector.
+            Just last year, our winners built a CV helper tool, an image
+            generator and an audio emotion detector. What will you create?
           </p>
         </div>
       </div>
