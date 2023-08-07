@@ -13,10 +13,12 @@ export default function Landing() {
   const text = (
     <div className={styles["top-content__text"]}>
       <p>Join Canada&apos;s 150+ brightest minds for a 24 hour AI hackathon!</p>
-      <p>Applications open soon!</p>
-      {/*<Button expand onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSe0DH0vjR8_MF5Y938kuMyEQuaQtuqF_21DNaN-BfQqMpcADQ/viewform')}>
-            Live Site
-        </Button>*/}
+      <Button
+        expand
+        onClick={() => window.open("https://forms.gle/AhRZLthZD5La5wQh6")}
+      >
+        Apply now!
+      </Button>
       {/* Replace the button with this after the applications close and the new schedule is ready */}
       {/*<Link passHref href="/live">
         <div>
