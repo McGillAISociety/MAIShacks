@@ -39,14 +39,14 @@ const beginner_saturday = [
   },
   {
     type: "workshop",
-    time: "1:30 PM - 2:00 PM",
+    time: "1:00 PM - 1:30 PM",
     title: "Workshop - Basics of AI",
     description: "ENGTR0100",
   },
   {
     type: "workshop",
     time: "1:30 PM - 2:00 PM",
-    title: "Workshop - Basics of Pytorch",
+    title: "Workshop - Basics of Scikit-learn",
     description: "ENGTR0100",
   },
   {
@@ -56,16 +56,22 @@ const beginner_saturday = [
     description: "ENGTR2100",
   },
   {
-    type: "workshop",
-    time: "2:00 PM - 2:30 PM",
-    title: "Workshop - Basics of Scikit-learn",
-    description: "ENGTR0100",
-  },
-  {
     type: "activity",
     time: "2:00 PM - 2:30 PM",
     title: "Manhunt",
     description: "ENGTR2120",
+  },
+  {
+    type: "workshop",
+    time: "2:30 PM - 3:00 PM",
+    title: "Workshop - Basics of Pytorch",
+    description: "ENGTR0100",
+  },
+  {
+    type: "general",
+    time: "3:00 PM - 4:00 PM",
+    title: "Networking Hour",
+    description: "Mezzanine",
   },
   {
     type: "workshop",
@@ -112,7 +118,7 @@ const beginner_saturday = [
   {
     type: "activity",
     time: "7:00 PM - 7:30 PM",
-    title: "Trivia Quiz",
+    title: "Stack the Cup",
     description: "ENGTR2120",
   },
   {
@@ -148,21 +154,9 @@ const beginner_sunday = [
     description: "Mezzanine",
   },
   {
-    type: "activity",
-    time: "12:00 PM - 12:30 PM",
-    title: "Stack the Cup Sunday",
-    description: "ENGTR2120",
-  },
-  {
-    type: "activity",
-    time: "1:00 PM - 1:30 PM",
-    title: "Chess Tournament",
-    description: "ENGTR2120",
-  },
-  {
     type: "general",
-    time: "2:00 PM - 3:00 PM",
-    title: "Closing ceremonies",
+    time: "2:30 PM - 3:30 PM",
+    title: "Closing Ceremonies",
     description: "ENGTR0100",
   },
 ];
