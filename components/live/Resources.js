@@ -6,11 +6,11 @@ import styles from "../../styles/Resources.module.scss";
 const iconProps = { size: 30 };
 
 const resources = [
-  {
+  /*{
     icon: <Discord {...iconProps} />,
     text: "Discord",
     link: "https://discord.gg/96fjuebv",
-  },
+  },*/
   {
     icon: <Devpost {...iconProps} />,
     text: "Devpost",
@@ -22,9 +22,8 @@ export default function Resources() {
   return (
     <div className="top-margin">
       <small className="text-center">
-        Join the Discord and Devpost{" "}
-        <i>only if you have been accepted to MAIS Hacks!</i> You will be kicked
-        otherwise.
+        Join the Devpost <i>only if you have been accepted to MAIS Hacks!</i>{" "}
+        You will be kicked otherwise.
       </small>
       <br></br>
       <small className="text-center">
