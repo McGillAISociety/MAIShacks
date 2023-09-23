@@ -206,9 +206,9 @@ const renderDay = (events) => {
 export default function Schedule() {
   return (
     <div>
-      <h3 className={styles["day-title"]}>Saturday, October 1st</h3>
+      <h3 className={styles["day-title"]}>Saturday, September 30th</h3>
       {renderDay(beginner_saturday)}
-      <h3 className={styles["day-title"]}>Sunday, October 2nd</h3>
+      <h3 className={styles["day-title"]}>Sunday, October 1st</h3>
       {renderDay(beginner_sunday)}
     </div>
     /*<Tabs className="Tabs">
