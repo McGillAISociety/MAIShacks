@@ -68,6 +68,12 @@ const beginner_saturday = [
     description: "ENGTR0100",
   },
   {
+    type: "workshop",
+    time: "2:30 PM - 3:00 PM",
+    title: "Workshop - Human-Centered AI Design: Empathy Mapping & Iteration",
+    description: "ENGTR2110",
+  },
+  {
     type: "general",
     time: "3:00 PM - 4:00 PM",
     title: "Networking Hour",
@@ -117,7 +123,7 @@ const beginner_saturday = [
   },
   {
     type: "activity",
-    time: "7:00 PM - 7:30 PM",
+    time: "7:30 PM - 8:00 PM",
     title: "Stack the Cup",
     description: "ENGTR2120",
   },
