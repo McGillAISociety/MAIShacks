@@ -60,8 +60,7 @@ export default function Info() {
           </p>
           <p>
             If you think that a hackathon is all work and no play, think again!
-            Get ready for video games, movie screenings, Easter eggs and funky
-            prizes to be won...as well as surprises we can’t reveal to you just
+            Get ready for many fun games and competitions...as well as surprises we can’t reveal to you just
             yet!
           </p>
         </div>
@@ -72,7 +71,7 @@ export default function Info() {
           <p>
             Build an AI project with your teammates, and along the way, gain
             invaluable experience, opportunities, and exposure to the field of
-            AI. We have over $3000 in prizes to be won!
+            AI.
           </p>
           <p>
             Just last year, our winners built a CV helper tool, an image
