@@ -5,6 +5,7 @@ import Countdown from "react-countdown";
 import Link from "next/link";
 
 export default function Landing() {
+  
   const zeroify = (_num) => {
     const num = String(_num);
     return num.length === 1 ? `0${num}` : num;
@@ -20,13 +21,13 @@ export default function Landing() {
         Apply now!
   </Button>*/}
       {/* Replace the button with this after the applications close and the new schedule is ready */}
-      <Link passHref href="/live">
+      {/*<Link passHref href="/live">
         <div>
           <Button expand onClick={() => {}}>
             Go to live site
           </Button>
         </div>
-      </Link>
+      </Link>*/}
     </div>
   );
 
@@ -58,14 +59,14 @@ export default function Landing() {
       </div>
       <div className={`flex-container ${styles["bottom-content-container"]}`}>
         <div className={styles["bottom-content"]}>
-          <h2>September 30th to October 1st, 2023</h2>
+          <h2>February 1st & 2nd, 2025</h2>
           <div
             className={`flex-container ${styles["bottom-content__countdowns"]}`}
           >
             <div>
               <p>Hackathon starts in:</p>
               <Countdown
-                date={Date.parse("2023-09-30T09:00:00+0000")}
+                date={Date.parse("2025-02-01T09:30:00+0000")}
                 renderer={({ days, hours, minutes, seconds }) => (
                   <span className={styles["bottom-content__countdown"]}>
                     {zeroify(days)}&nbsp;:&nbsp;{zeroify(hours)}&nbsp;:&nbsp;
