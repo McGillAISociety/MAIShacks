@@ -14,12 +14,12 @@ export default function Landing() {
   const text = (
     <div className={styles["top-content__text"]}>
       <p>Join Canada&apos;s 150+ brightest minds for a 24 hour AI hackathon!</p>
-      {/*<Button
+      <Button
         expand
-        onClick={() => window.open("https://forms.gle/AhRZLthZD5La5wQh6")}
+        onClick={() => window.open("https://forms.gle/zsV9a43v9rhNS8yn9")}
       >
         Apply now!
-  </Button>*/}
+      </Button>
       {/* Replace the button with this after the applications close and the new schedule is ready */}
       {/*<Link passHref href="/live">
         <div>
@@ -28,6 +28,11 @@ export default function Landing() {
           </Button>
         </div>
       </Link>*/}
+      {/*<Button
+        onClick={() => {}}
+      >
+        Applications open soon!
+    </Button>*/}
     </div>
   );
 
