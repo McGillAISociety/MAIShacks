@@ -8,7 +8,7 @@ export default function Live() {
   return (
     <>
       <MetaTags
-        title="LIVE | MAIS Hacks 2023"
+        title="LIVE | MAIS Hacks 2025"
         description="Canada's largest AI hackathon"
         imagePath="/meta/banner.png"
         route="/live"

@@ -9,135 +9,87 @@ import styles from "../../styles/Schedule.module.scss";
 const beginner_saturday = [
   {
     type: "general",
-    time: "9:30 AM - 10:30 AM",
-    title: "Doors Open / Registration",
-    description: "Mezzanine",
-  },
-  {
-    type: "general",
-    time: "10:30 AM - 11:30 AM",
+    time: "11:00 AM - 11:30 AM",
     title: "Opening ceremony",
-    description: "ENGTR0100",
+    description: "ENGTR 0100",
   },
   {
     type: "general",
-    time: "11:30 AM - 12:00 PM",
-    title: "Team matching + Devpost Registration",
-    description: "",
-  },
-  {
-    type: "hacking",
-    time: "12:00 PM",
-    title: "Hacking starts!",
-    description: "",
-  },
-  {
-    type: "general",
-    time: "12:00 PM - 12:30 PM",
+    time: "12:00 PM - 1:00 PM",
     title: "Lunch",
     description: "Mezzanine",
   },
   {
     type: "workshop",
-    time: "1:00 PM - 1:30 PM",
-    title: "Workshop - Basics of AI",
-    description: "ENGTR0100",
+    time: "1:00 PM - 1:45 PM",
+    title: "Intro to AI workshop",
+    description: "ENGTR 0100",
   },
   {
     type: "workshop",
-    time: "1:30 PM - 2:00 PM",
-    title: "Workshop - Basics of Scikit-learn",
-    description: "ENGTR0100",
+    time: "1:45 PM - 2:15 PM",
+    title: "Intro to scikit learn",
+    description: "ENGTR 0100",
   },
   {
     type: "workshop",
-    time: "1:30 PM - 2:00 PM",
-    title: "Workshop - Data Security with Steven Li",
-    description: "ENGTR2100",
-  },
-  {
-    type: "activity",
-    time: "2:00 PM - 2:30 PM",
-    title: "Manhunt",
-    description: "ENGTR2120",
-  },
-  {
-    type: "workshop",
-    time: "2:30 PM - 3:00 PM",
-    title: "Workshop - Basics of Pytorch",
-    description: "ENGTR0100",
-  },
-  {
-    type: "workshop",
-    time: "2:30 PM - 3:00 PM",
-    title: "Workshop - Human-Centered AI Design: Empathy Mapping & Iteration",
-    description: "ENGTR2110",
+    time: "2:30 PM - 3:15 PM",
+    title: "Safety workshop",
+    description: "ENGTR 2100",
   },
   {
     type: "general",
-    time: "3:00 PM - 4:00 PM",
-    title: "Networking Hour",
+    time: "3:30 PM - 3:15 PM",
+    title: "Brownie Time",
     description: "Mezzanine",
+  },
+  {
+    type: "workshop",
+    time: "4:00 PM - 4:45 PM",
+    title: "AI in Neuroscience",
+    description: "ENGTR 2100",
   },
   {
     type: "workshop",
     time: "4:00 PM - 4:30 PM",
-    title: "Workshop - Project Pitch by Queens University",
-    description: "ENGTR0100",
+    title: "Backend workshop",
+    description: "ENGTR 0100",
   },
   {
     type: "workshop",
-    time: "4:00 PM - 5:00 PM",
-    title: "Workshop - Talk by Luc Duong on AI and Biology",
-    description: "ENGTR2100",
-  },
-  {
-    type: "workshop",
-    time: "4:00 PM - 5:00 PM",
-    title: "Workshop - Breaking ML Systems",
-    description: "ENGTR2120",
-  },
-  {
-    type: "workshop",
-    time: "5:00 PM - 6:00 PM",
-    title: "Workshop - AI Safety",
-    description: "ENGTR2120",
-  },
-  {
-    type: "workshop",
-    time: "5:00 PM - 5:30 PM",
-    title: "Workshop - Backend",
-    description: "ENGTR0100",
-  },
-  {
-    type: "workshop",
-    time: "5:30 PM - 6:00 PM",
-    title: "Workshop - Frontend",
-    description: "ENGTR0100",
+    time: "4:45 PM - 5:30 PM",
+    title: "Frontend workshop",
+    description: "ENGTR 0100",
   },
   {
     type: "general",
-    time: "6:30 PM - 7:00 PM",
+    time: "6:00 PM - 7:00 PM",
     title: "Dinner",
+    description: "",
+  },
+  {
+    type: "activity",
+    time: "7:00 PM - 7:30 PM",
+    title: "Slides Karaoke",
+    description: "ENGTR2110",
+  },
+  {
+    type: "activity",
+    time: "10:30 PM - 11:00 PM",
+    title: "Werewolves",
+    description: "ENGTR2110",
+  },
+  {
+    type: "general",
+    time: "12:00 AM",
+    title: "Hot Chocolate",
     description: "Mezzanine",
-  },
-  {
-    type: "activity",
-    time: "7:30 PM - 8:00 PM",
-    title: "Stack the Cup",
-    description: "ENGTR2120",
-  },
-  {
-    type: "activity",
-    time: "8:00 PM - 8:30 PM",
-    title: "Origami",
-    description: "ENGTR2120",
-  },
+  }
 ];
 const beginner_sunday = [
   {
     type: "general",
-    time: "8:30 - 10:30 AM",
+    time: "8:00 - 10:00 AM",
     title: "Breakfast",
     description: "Mezzanine",
   },
@@ -149,21 +101,21 @@ const beginner_sunday = [
   },
   {
     type: "general",
-    time: "12:00 PM",
+    time: "12:00 PM - 2:30 pm",
+    title: "Judging",
+    description: "ENGTR 0100",
+  },
+  {
+    type: "general",
+    time: "12:00 - 2:30 PM",
     title: "Lunch",
     description: "Mezzanine",
   },
   {
     type: "general",
-    time: "12:00 - 2:00 PM",
-    title: "Judging",
-    description: "Mezzanine",
-  },
-  {
-    type: "general",
-    time: "2:30 PM - 3:30 PM",
+    time: "3:30 PM - 4:00 PM",
     title: "Closing Ceremonies",
-    description: "ENGTR0100",
+    description: "ENGTR 0100",
   },
 ];
 
@@ -212,9 +164,9 @@ const renderDay = (events) => {
 export default function Schedule() {
   return (
     <div>
-      <h3 className={styles["day-title"]}>Saturday, September 30th</h3>
+      <h3 className={styles["day-title"]}>Saturday, February 1st</h3>
       {renderDay(beginner_saturday)}
-      <h3 className={styles["day-title"]}>Sunday, October 1st</h3>
+      <h3 className={styles["day-title"]}>Sunday, February 2nd</h3>
       {renderDay(beginner_sunday)}
     </div>
     /*<Tabs className="Tabs">

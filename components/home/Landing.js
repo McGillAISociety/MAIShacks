@@ -21,13 +21,13 @@ export default function Landing() {
         Apply now!
       </Button>
       {/* Replace the button with this after the applications close and the new schedule is ready */}
-      {/*<Link passHref href="/live">
+      *<Link passHref href="/live">
         <div>
           <Button expand onClick={() => {}}>
             Go to live site
           </Button>
         </div>
-      </Link>*/}
+      </Link>
       {/*<Button
         onClick={() => {}}
       >
