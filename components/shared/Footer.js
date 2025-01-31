@@ -54,7 +54,7 @@ export default function Footer() {
         ))}
       </div>
       <div className="flex">
-        <small>© McGill AI Society 2023</small>
+        <small>© McGill AI Society 2025</small>
       </div>
     </footer>
   );
