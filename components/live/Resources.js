@@ -6,16 +6,16 @@ import styles from "../../styles/Resources.module.scss";
 const iconProps = { size: 30 };
 
 const resources = [
-  /*{
+  {
     icon: <Discord {...iconProps} />,
     text: "Discord",
-    link: "https://discord.gg/96fjuebv",
-  },*/
-  /*{
+    link: "https://discord.gg/HryNCQXV",
+  },
+  {
     icon: <Devpost {...iconProps} />,
     text: "Devpost",
-    link: "https://maishacks2023.devpost.com/",
-  },*/
+    link: "https://mais-hacks-2025.devpost.com",
+  },
 ];
 
 export default function Resources() {
